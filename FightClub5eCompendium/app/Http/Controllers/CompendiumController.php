@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use File;
 
 class CompendiumController extends Controller
 {
@@ -11,36 +12,58 @@ class CompendiumController extends Controller
     }
 
     public function compendium(Request $request) {
+        $collectionsDir = "/compendiums/collections";
+
         $sources = $request->input('sources');
+
+        if (!isset($sources)) {
+            return redirect()->action('CompendiumController@index');
+        }
         
+        // SHA-1 the sources to produce the directory
+        $dir = sha1(implode(", ", $sources));
+
+        if (File::exists(public_path("{$collectionsDir}/custom/{$dir}/CustomCompendium.xml"))) {
+            return view('compendium', ["customCompendium" => "{$collectionsDir}/custom/{$dir}/CustomCompendium.xml"]);
+        }
+        else {
+            File::makeDirectory(public_path("{$collectionsDir}/custom/{$dir}"));
+        }
+
+        $compendiumXML = $this->makeCompendiumXML($sources);
+
+        $xslt_doc = new \DOMDocument();
+        $xslt_doc->load(public_path("/utilities/merge.xslt"));
+
+        $xml_doc = new \DOMDocument();
+        $xml_doc->loadXML($compendiumXML);
+
+        $proc = new \XSLTProcessor();
+        $proc->importStylesheet($xslt_doc);
+        $finalCompendium = $proc->transformToDoc($xml_doc);
+
+        file_put_contents(public_path("{$collectionsDir}/custom/{$dir}/CustomCompendium.xml"), $finalCompendium->saveXML());
+
+        return view('compendium', ["customCompendium" => "{$collectionsDir}/custom/{$dir}/CustomCompendium.xml"]);
+    }
+
+
+    private function makeCompendiumXML($sources) {
+        $sourcesDir = "/compendiums/sources";
+
         $compendiumSources = "";
         foreach ($sources as $source) {
-            $compendiumSources .= "<doc href='" . public_path("/compendiums/sources/{$source}.xml") . "' />\n";
+            $compendiumSources .= "<doc href='" . public_path("{$sourcesDir}/{$source}.xml") . "' />\n";
         }
 
         // error_log($compendiumSources);
 
-        if ($compendiumSources != "") {
-            $compendiumXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
-                              <collection>
-                                {$compendiumSources}
-                              </collection>
-                              ";
+        $compendiumXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+                          <collection>
+                            {$compendiumSources}
+                          </collection>
+                          ";
 
-            $xslt_doc = new \DOMDocument();
-            // $xslt_doc->load(asset("/utilities/merge.xslt"));
-            $xslt_doc->load(public_path("/utilities/merge.xslt"));
-
-            $xml_doc = new \DOMDocument();
-            $xml_doc->loadXML($compendiumXML);
-
-            $proc = new \XSLTProcessor();
-            $proc->importStylesheet($xslt_doc);
-            $finalCompendium = $proc->transformToDoc($xml_doc);
-
-            file_put_contents(public_path("/compendiums/collections/custom/CustomCompendium.xml"), $finalCompendium->saveXML());
-        }
-
-        return view('compendium');
+        return $compendiumXML;
     }
 }

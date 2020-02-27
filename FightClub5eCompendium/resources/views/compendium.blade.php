@@ -79,7 +79,7 @@
                 display: inline;
             }
 
-            div#finalCompendiumDiv {
+            div#customCompendiumDiv {
                 border: 2px solid;
                 background-color: beige;
                 margin: 30px;
@@ -93,10 +93,10 @@
                     Create a Compendium
                 </div>
 
-                <div id="finalCompendiumDiv" style="display: none;">
+                <div id="customCompendiumDiv" style="display: {{ isset($customCompendium) ? 'block' : 'none' }};">
                     <p>
                         Your Compendium has been created.<br />
-                        <a href="javascript:void(0)">Click here to download.</a>
+                        <a href="{{ $customCompendium ?? 'javascript:void(0)' }}"{{ isset($customCompendium) ? ' download' : '' }}>Click here to download.</a>
                     <p>
                 </div>
 
