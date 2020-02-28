@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', "CompendiumController@index");
+Route::get('/compendium', "CompendiumController@index");
+Route::post('/compendium', "CompendiumController@compendium");
