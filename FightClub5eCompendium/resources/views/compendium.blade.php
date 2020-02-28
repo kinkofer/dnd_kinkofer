@@ -348,60 +348,60 @@
                         </div>
 
                         <div class="checkbox">
-                            <input type="checkbox" id="unearthedArcana" name="sources[]" value="UnearthedArcana" onChange="requireXgtE(this)" class="unearthedArcana requiresXgtE" />
+                            <input type="checkbox" id="unearthedArcana" name="sources[]" value="UnearthedArcana/UnearthedArcana" onChange="requireXgtE(this)" class="unearthedArcana requiresXgtE" />
                             <label for="unearthedArcana">Unearthed Arcana</label>&#x2020
                             <sup>Released</sup>
                         </div>
                         <div class="checkbox">
-                            <input type="checkbox" id="2015-08-03_ModernMagic" name="sources[]" value="2015-08-03_ModernMagic" onChange="requirePHB(this)" class="unearthedArcana unreleased requiresPHB" />
+                            <input type="checkbox" id="2015-08-03_ModernMagic" name="sources[]" value="UnearthedArcana/2015-08-03_ModernMagic" onChange="requirePHB(this)" class="unearthedArcana unreleased requiresPHB" />
                             <label for="2015-08-03_ModernMagic">2015-08-03 Modern Magic</label>&#x2A&#xA7
                         </div>
                         <div class="checkbox">
-                            <input type="checkbox" id="2017-01-09_Artificer" name="sources[]" value="2017-01-09_Artificer" onChange="requirePHB(this)" class="unearthedArcana requiresPHB" />
+                            <input type="checkbox" id="2017-01-09_Artificer" name="sources[]" value="UnearthedArcana/2017-01-09_Artificer" onChange="requirePHB(this)" class="unearthedArcana requiresPHB" />
                             <label for="2017-01-09_Artificer">2017-01-09 Artificer</label>&#x2A
                         </div>
                         <div class="checkbox">
-                            <input type="checkbox" id="2017-03-03_TheMysticClass" name="sources[]" value="2017-03-03_TheMysticClass" onChange="requirePHB(this)" class="unearthedArcana unreleased requiresPHB" />
+                            <input type="checkbox" id="2017-03-03_TheMysticClass" name="sources[]" value="UnearthedArcana/2017-03-03_TheMysticClass" onChange="requirePHB(this)" class="unearthedArcana unreleased requiresPHB" />
                             <label for="2017-03-03_TheMysticClass">2017-03-03 The Mystic Class</label>&#x2A&#xA7
                         </div>
                         <div class="checkbox">
-                            <input type="checkbox" id="2018-12-17_Sidekicks" name="sources[]" value="2018-12-17_Sidekicks" onChange="requirePHB(this)" class="unearthedArcana unreleased requiresPHB" />
+                            <input type="checkbox" id="2018-12-17_Sidekicks" name="sources[]" value="UnearthedArcana/2018-12-17_Sidekicks" onChange="requirePHB(this)" class="unearthedArcana unreleased requiresPHB" />
                             <label for="2018-12-17_Sidekicks">2018-12-17 Sidekicks</label>&#x2A&#xA7
                         </div>
                         <div class="checkbox">
-                            <input type="checkbox" id="2019-08-15_BarbarianAndMonk" name="sources[]" value="2019-08-15_BarbarianAndMonk" onChange="requirePHB(this)" class="unearthedArcana unreleased requiresPHB" />
+                            <input type="checkbox" id="2019-08-15_BarbarianAndMonk" name="sources[]" value="UnearthedArcana/2019-08-15_BarbarianAndMonk" onChange="requirePHB(this)" class="unearthedArcana unreleased requiresPHB" />
                             <label for="2019-08-15_BarbarianAndMonk">2019-08-15 Barbarian and Monk</label>&#x2A&#xA7
                         </div>
                         <div class="checkbox">
-                            <input type="checkbox" id="2019-09-05_SorcererAndWarlock" name="sources[]" value="2019-09-05_SorcererAndWarlock" onChange="requirePHB(this)" class="unearthedArcana unreleased requiresPHB" />
+                            <input type="checkbox" id="2019-09-05_SorcererAndWarlock" name="sources[]" value="UnearthedArcana/2019-09-05_SorcererAndWarlock" onChange="requirePHB(this)" class="unearthedArcana unreleased requiresPHB" />
                             <label for="2019-09-05_SorcererAndWarlock">2019-09-05 Sorcerer and Warlock</label>&#x2A&#xA7
                         </div>
                         <div class="checkbox">
-                            <input type="checkbox" id="2019-09-18_BardAndPaladin" name="sources[]" value="2019-09-18_BardAndPaladin" onChange="requirePHB(this)" class="unearthedArcana unreleased requiresPHB" />
+                            <input type="checkbox" id="2019-09-18_BardAndPaladin" name="sources[]" value="UnearthedArcana/2019-09-18_BardAndPaladin" onChange="requirePHB(this)" class="unearthedArcana unreleased requiresPHB" />
                             <label for="2019-09-18_BardAndPaladin">2019-09-18 Bard and Paladin</label>&#x2A&#xA7
                         </div>
                         <div class="checkbox">
-                            <input type="checkbox" id="2019-10-03_ClericDruidAndWizard" name="sources[]" value="2019-10-03_ClericDruidAndWizard" onChange="requirePHB(this)" class="unearthedArcana unreleased requiresPHB" />
+                            <input type="checkbox" id="2019-10-03_ClericDruidAndWizard" name="sources[]" value="UnearthedArcana/2019-10-03_ClericDruidAndWizard" onChange="requirePHB(this)" class="unearthedArcana unreleased requiresPHB" />
                             <label for="2019-10-03_ClericDruidAndWizard">2019-10-03 Cleric Druid and Wizard</label>&#x2A&#xA7
                         </div>
                         <div class="checkbox">
-                            <input type="checkbox" id="2019-10-17_FighterRangerAndRogue" name="sources[]" value="2019-10-17_FighterRangerAndRogue" onChange="requirePHB(this)" class="unearthedArcana unreleased requiresPHB" />
+                            <input type="checkbox" id="2019-10-17_FighterRangerAndRogue" name="sources[]" value="UnearthedArcana/2019-10-17_FighterRangerAndRogue" onChange="requirePHB(this)" class="unearthedArcana unreleased requiresPHB" />
                             <label for="2019-10-17_FighterRangerAndRogue">2019-10-17 Fighter Ranger and Rogue</label>&#x2A&#xA7
                         </div>
                         <div class="checkbox">
-                            <input type="checkbox" id="2019-11-04_ClassFeatureVariants" name="sources[]" value="2019-11-04_ClassFeatureVariants" onChange="requireXgtE(this)" class="unearthedArcana unreleased requiresXgtE" />
+                            <input type="checkbox" id="2019-11-04_ClassFeatureVariants" name="sources[]" value="UnearthedArcana/2019-11-04_ClassFeatureVariants" onChange="requireXgtE(this)" class="unearthedArcana unreleased requiresXgtE" />
                             <label for="2019-11-04_ClassFeatureVariants">2019-11-04 Class Feature Variants</label>&#x2020&#xA7
                         </div>
                         <div class="checkbox">
-                            <input type="checkbox" id="2019-11-25_FighterRogueAndWizard" name="sources[]" value="2019-11-25_FighterRogueAndWizard" onChange="requirePHB(this)" class="unearthedArcana unreleased requiresPHB" />
+                            <input type="checkbox" id="2019-11-25_FighterRogueAndWizard" name="sources[]" value="UnearthedArcana/2019-11-25_FighterRogueAndWizard" onChange="requirePHB(this)" class="unearthedArcana unreleased requiresPHB" />
                             <label for="2019-11-25_FighterRogueAndWizard">2019-11-25 Fighter Rogue and Wizard</label>&#x2A&#xA7
                         </div>
                         <div class="checkbox">
-                            <input type="checkbox" id="2020-01-14_2020SubclassesPart1" name="sources[]" value="2020-01-14_2020SubclassesPart1" onChange="requirePHB(this)" class="unearthedArcana unreleased requiresPHB" />
+                            <input type="checkbox" id="2020-01-14_2020SubclassesPart1" name="sources[]" value="UnearthedArcana/2020-01-14_2020SubclassesPart1" onChange="requirePHB(this)" class="unearthedArcana unreleased requiresPHB" />
                             <label for="2020-01-14_2020SubclassesPart1">2020-01-14 2020 Subclasses Part 1</label>&#x2A&#xA7
                         </div>
                         <div class="checkbox">
-                            <input type="checkbox" id="2020-02-04_2020SubclassesPart2" name="sources[]" value="2020-02-04_2020SubclassesPart2" onChange="requirePHB(this)" class="unearthedArcana unreleased requiresPHB" />
+                            <input type="checkbox" id="2020-02-04_2020SubclassesPart2" name="sources[]" value="UnearthedArcana/2020-02-04_2020SubclassesPart2" onChange="requirePHB(this)" class="unearthedArcana unreleased requiresPHB" />
                             <label for="2020-02-04_2020SubclassesPart2">2020-02-04 2020 Subclasses Part 2</label>&#x2A&#xA7
                         </div>
 
@@ -426,16 +426,16 @@
                         </div>
 
                         <div class="checkbox">
-                            <input type="checkbox" id="tomeOfBeasts" name="sources[]" value="TomeOfBeasts" class="thirdParty" />
+                            <input type="checkbox" id="tomeOfBeasts" name="sources[]" value="ThirdParty/TomeOfBeasts" class="thirdParty" />
                             <label for="tomeOfBeasts">Tome of Beasts</label>
                         </div>
                         <div class="checkbox">
-                            <input type="checkbox" id="creatureCodex" name="sources[]" value="CreatureCodex" class="thirdParty" />
+                            <input type="checkbox" id="creatureCodex" name="sources[]" value="ThirdParty/CreatureCodex" class="thirdParty" />
                             <label for="creatureCodex">Creature Codex</label>
                         </div>
 
                         <hr />
-                        
+
                         <input type="submit" value="Create">
 
 
