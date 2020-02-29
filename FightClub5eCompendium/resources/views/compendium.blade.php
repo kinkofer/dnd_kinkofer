@@ -146,6 +146,33 @@
                 }
             }
 
+            function requireERftLW(checkbox) {
+                if (checkbox.checked) {
+                    var erftlwCheckbox = document.getElementById('eberronRisingFromTheLastWar');
+                    
+                    if (!erftlwCheckbox.checked) {
+                        erftlwCheckbox.checked = true;
+                        let changeEvent = new Event('change');
+                        erftlwCheckbox.dispatchEvent(changeEvent);
+                    }
+                }
+            }
+
+            function uncheckERftLWRequiredSources() {
+                var erftlwCheckbox = document.getElementById('eberronRisingFromTheLastWar');
+                if (!erftlwCheckbox.checked) {
+                    var checkboxes = document.getElementsByClassName('requiresERftLW');
+                    var i;
+                    for (i = 0; i < checkboxes.length; i++) {
+                        if (checkboxes[i].checked) {
+                            checkboxes[i].checked = false;
+                            let changeEvent = new Event('change');
+                            checkboxes[i].dispatchEvent(changeEvent);
+                        }
+                    }
+                }
+            }
+
             function selectAll(className) {
                 var checkboxes = document.getElementsByClassName(className);
                 var i;
@@ -271,7 +298,7 @@
                             <sup>(Item's Only)</sup>
                         </div>
                         <div class="checkbox">
-                            <input type="checkbox" id="eberronRisingFromTheLastWar" name="sources[]" value="EberronRisingFromTheLastWar" onChange="requireXgtE(this)" class="requiresXgtE rulebookSupplements" />
+                            <input type="checkbox" id="eberronRisingFromTheLastWar" name="sources[]" value="EberronRisingFromTheLastWar" onChange="requireXgtE(this); uncheckERftLWRequiredSources();" class="requiresXgtE rulebookSupplements" />
                             <label for="eberronRisingFromTheLastWar">Eberron: Rising from the Last War</label>&#x2020
                         </div>
                         <div class="checkbox">
@@ -389,8 +416,8 @@
                             <label for="2019-10-17_FighterRangerAndRogue">2019-10-17 Fighter Ranger and Rogue</label>&#x2A&#xA7
                         </div>
                         <div class="checkbox">
-                            <input type="checkbox" id="2019-11-04_ClassFeatureVariants" name="sources[]" value="UnearthedArcana/2019-11-04_ClassFeatureVariants" onChange="requireXgtE(this)" class="unearthedArcana unreleased requiresXgtE" />
-                            <label for="2019-11-04_ClassFeatureVariants">2019-11-04 Class Feature Variants</label>&#x2020&#xA7
+                            <input type="checkbox" id="2019-11-04_ClassFeatureVariants" name="sources[]" value="UnearthedArcana/2019-11-04_ClassFeatureVariants" onChange="requireERftLW(this)" class="unearthedArcana unreleased requiresERftLW" />
+                            <label for="2019-11-04_ClassFeatureVariants">2019-11-04 Class Feature Variants</label>&#x2021&#xA7
                         </div>
                         <div class="checkbox">
                             <input type="checkbox" id="2019-11-25_FighterRogueAndWizard" name="sources[]" value="UnearthedArcana/2019-11-25_FighterRogueAndWizard" onChange="requirePHB(this)" class="unearthedArcana unreleased requiresPHB" />
@@ -403,6 +430,10 @@
                         <div class="checkbox">
                             <input type="checkbox" id="2020-02-04_2020SubclassesPart2" name="sources[]" value="UnearthedArcana/2020-02-04_2020SubclassesPart2" onChange="requirePHB(this)" class="unearthedArcana unreleased requiresPHB" />
                             <label for="2020-02-04_2020SubclassesPart2">2020-02-04 2020 Subclasses Part 2</label>&#x2A&#xA7
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" id="2020-02-24_2020SubclassesPart3" name="sources[]" value="UnearthedArcana/2020-02-24_2020SubclassesPart3" onChange="requireERftLW(this)" class="unearthedArcana unreleased requiresERftLW" />
+                            <label for="2020-02-24_2020SubclassesPart3">2020-02-24 2020 Subclasses Part 3</label>&#x2021&#xA7
                         </div>
 
                         <hr />
@@ -442,6 +473,7 @@
                         <p id="footnote">
                             &#x2A Requires Player's Handbook<br />
                             &#x2020 Requires Xanathar's Guide to Everything<br />
+                            &#x2021 Requires Eberron: Rising from the Last War<br />
                             &#xA7 Unreleased
                             <!-- 
                                 &#x2A (asterisk)
