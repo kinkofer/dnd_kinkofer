@@ -14346,7 +14346,7 @@
         <text>    If you remove a bean from the bag, plant it in dirt or sand, and then water it, the bean produces an effect 1 minute later from the ground where it was planted. The DM can choose an effect from the following table, determine it randomly, or create an effect. </text>
         <text>     </text>
         <text>    d100 — Effect: </text>
-        <text>    01 — 5d4 toadstools sprout. If a creature eats a toadstool, roll any die. On an odd roll, the eater must succeed on a DC 15 Constitution saving throw or take Sd6 poison damage and become poisoned for 1 hour. On an even roll, the eater gains 5d6 temporary hit points for 1 hour. </text>
+        <text>    01 — 5d4 toadstools sprout. If a creature eats a toadstool, roll any die. On an odd roll, the eater must succeed on a DC 15 Constitution saving throw or take 5d6 poison damage and become poisoned for 1 hour. On an even roll, the eater gains 5d6 temporary hit points for 1 hour. </text>
         <text>    2-10 — A geyser erupts and spouts water, beer, berry juice, tea, vinegar, wine, or oil (DM's choice) 30 feet into the air for 1d12 rounds. </text>
         <text>    11-20 — A treant sprouts (see the Monster Manual for statistics). There's a 50 percent chance that the treant is chaotic evil and attacks. </text>
         <text>    21-30 — An animate, immobile stone statue in your likeness rises. It makes verbal threats against you. If you leave it and others come near, it describes you as the most heinous of villains and directs the newcomers to find and attack you. If you are on the same plane of existence as the statue, it knows where you are. The statue becomes inanimate after 24 hours. </text>
@@ -18330,7 +18330,7 @@
         <weapons>simple weapons, martial weapons</weapons>
         <tools>none</tools>
         <wealth>2d4x10</wealth>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Starting Barbarian</name>
@@ -18352,7 +18352,7 @@
                 <text>Source: Player's Handbook, p. 48</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Multiclass Barbarian</name>
@@ -18365,7 +18365,7 @@
                 <text>Source: Player's Handbook, p. 163</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature>
                 <name>Rage</name>
@@ -18389,7 +18389,7 @@
         <autolevel level="1">
             <counter><name>Rage</name><value>2</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature>
                 <name>Unarmored Defense</name>
@@ -18399,7 +18399,7 @@
                 <special>unarmored defense constitution</special>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature>
                 <name>Reckless Attack</name>
@@ -18408,7 +18408,7 @@
                 <text>Source: Player's Handbook, p. 48</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature>
                 <name>Danger Sense</name>
@@ -18418,7 +18418,7 @@
                 <text>Source: Player's Handbook, p. 48</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <counter><name>Rage</name><value>3</value><reset>L</reset></counter>
         </autolevel>
@@ -18431,7 +18431,7 @@
                 <text>Source: Player's Handbook, p. 48</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Primal Path: Path of the Berserker</name>
@@ -18440,7 +18440,7 @@
                 <text>Source: Player's Handbook, p. 49</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Frenzy (Path of the Berserker)</name>
@@ -18465,7 +18465,7 @@
                 <text>Source: Player's Handbook, p. 49</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Primal Path: Path of the Totem Warrior</name>
@@ -18475,7 +18475,7 @@
                 <text>Source: Player's Handbook, p. 50</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Spirit Seeker (Path of the Totem Warrior)</name>
@@ -18484,7 +18484,7 @@
                 <text>Source: Player's Handbook, p. 50</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Totem Spirit (Path of the Totem Warrior)</name>
@@ -18494,7 +18494,7 @@
                 <text>Source: Player's Handbook, p. 50</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Totem Spirit: Bear</name>
@@ -18503,7 +18503,7 @@
                 <text>Source: Player's Handbook, p. 50</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Totem Spirit: Eagle</name>
@@ -18512,7 +18512,7 @@
                 <text>Source: Player's Handbook, p. 50</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Totem Spirit: Wolf</name>
@@ -18521,7 +18521,7 @@
                 <text>Source: Player's Handbook, p. 50</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="4" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement</name>
@@ -18531,7 +18531,7 @@
                 <text>Source: Player's Handbook, p. 49</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="5">
             <feature>
                 <name>Extra Attack</name>
@@ -18540,7 +18540,7 @@
                 <text>Source: Player's Handbook, p. 49</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="5">
             <feature>
                 <name>Fast Movement</name>
@@ -18550,7 +18550,7 @@
                 <modifier category="bonus">speed +10</modifier>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <counter><name>Rage</name><value>4</value><reset>L</reset></counter>
         </autolevel>
@@ -18563,7 +18563,7 @@
                 <text>Source: Player's Handbook, p. 49</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature optional="YES">
                 <name>Aspect of the Beast (Path of the Totem Warrior)</name>
@@ -18572,7 +18572,7 @@
                 <text>Source: Player's Handbook, p. 50</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature optional="YES">
                 <name>Aspect of the Beast: Bear</name>
@@ -18581,7 +18581,7 @@
                 <text>Source: Player's Handbook, p. 50</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature optional="YES">
                 <name>Aspect of the Beast: Eagle</name>
@@ -18590,7 +18590,7 @@
                 <text>Source: Player's Handbook, p. 50</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature optional="YES">
                 <name>Aspect of the Beast: Wolf</name>
@@ -18599,7 +18599,7 @@
                 <text>Source: Player's Handbook, p. 50</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="7">
             <feature>
                 <name>Feral Instinct</name>
@@ -18609,7 +18609,7 @@
                 <text>Source: Player's Handbook, p. 49</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="8" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement (2nd)</name>
@@ -18619,7 +18619,7 @@
                 <text>Source: Player's Handbook, p. 49</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="9">
             <feature>
                 <name>Brutal Critical</name>
@@ -18629,7 +18629,7 @@
                 <text>Source: Player's Handbook, p. 49</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="10">
             <feature optional="YES">
                 <name>Intimidating Presence (Path of the Berserker)</name>
@@ -18644,7 +18644,7 @@
                 <text>Source: Player's Handbook, p. 49</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="10">
             <feature optional="YES">
                 <name>Spirit Walker (Path of the Totem Warrior)</name>
@@ -18653,7 +18653,7 @@
                 <text>Source: Player's Handbook, p. 50</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="11" scoreImprovement="YES">
             <feature>
                 <name>Relentless Rage</name>
@@ -18663,7 +18663,7 @@
                 <text>Source: Player's Handbook, p. 49</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="12" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement (3rd)</name>
@@ -18677,7 +18677,7 @@
         <autolevel level="12">
             <counter><name>Rage</name><value>5</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="14">
             <feature optional="YES">
                 <name>Retaliation (Path of the Berserker)</name>
@@ -18686,7 +18686,7 @@
                 <text>Source: Player's Handbook, p. 50</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="14">
             <feature optional="YES">
                 <name>Totemic Attunement (Path of the Totem Warrior)</name>
@@ -18695,7 +18695,7 @@
                 <text>Source: Player's Handbook, p. 50</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="14">
             <feature optional="YES">
                 <name>Totemic Attunement: Bear </name>
@@ -18704,7 +18704,7 @@
                 <text>Source: Player's Handbook, p. 50</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="14">
             <feature optional="YES">
                 <name>Totemic Attunement: Eagle</name>
@@ -18713,7 +18713,7 @@
                 <text>Source: Player's Handbook, p. 50</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="14">
             <feature optional="YES">
                 <name>Totemic Attunement: Wolf</name>
@@ -18729,7 +18729,7 @@
                 <text>Source: Player's Handbook, p. 50</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="15">
             <feature>
                 <name>Persistent Rage</name>
@@ -18738,7 +18738,7 @@
                 <text>Source: Player's Handbook, p. 49</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="16" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement (4th)</name>
@@ -18748,11 +18748,11 @@
                 <text>Source: Player's Handbook, p. 49</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="17">
             <counter><name>Rage</name><value>6</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="18">
             <feature>
                 <name>Indomitable Might</name>
@@ -18761,7 +18761,7 @@
                 <text>Source: Player's Handbook, p. 49</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="19" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement (5th)</name>
@@ -18771,7 +18771,7 @@
                 <text>Source: Player's Handbook, p. 49</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="20">
             <feature>
                 <name>Primal Champion</name>
@@ -18793,7 +18793,7 @@
         <weapons>simple weapons, hand crossbows, longswords, rapiers, shortswords</weapons>
         <tools>three musical instruments of your choice</tools>
         <wealth>5d4x10</wealth>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Starting Bard</name>
@@ -18816,7 +18816,7 @@
                 <text>Source: Player's Handbook, p. 51</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Multiclass Bard</name>
@@ -18829,11 +18829,11 @@
                 <text>Source: Player's Handbook, p. 163</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <slots>2, 2</slots>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature>
                 <name>Spellcasting</name>
@@ -18865,7 +18865,7 @@
                 <text>Source: Player's Handbook, p. 52</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature>
                 <name>Bardic Inspiration</name>
@@ -18877,11 +18877,11 @@
                 <text>Source: Player's Handbook, p. 53</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <slots>2, 3</slots>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature>
                 <name>Jack of All Trades</name>
@@ -18891,7 +18891,7 @@
                 <special>jack of all trades</special>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature>
                 <name>Song of Rest</name>
@@ -18901,11 +18901,11 @@
                 <text>Source: Player's Handbook, p. 54</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <slots>2, 4, 2</slots>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature>
                 <name>Expertise</name>
@@ -18915,7 +18915,7 @@
                 <text>Source: Player's Handbook, p. 54</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature>
                 <name>Bard College</name>
@@ -18924,7 +18924,7 @@
                 <text>Source: Player's Handbook, p. 54</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Bard College: College of Lore</name>
@@ -18935,7 +18935,7 @@
                 <text>Source: Player's Handbook, p. 54</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Cutting Words (College of Lore)</name>
@@ -18944,7 +18944,7 @@
                 <text>Source: Player's Handbook, p. 54</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Bonus Proficiencies (College of Lore)</name>
@@ -18953,7 +18953,7 @@
                 <text>Source: Player's Handbook, p. 54</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Bard College: College of Valor</name>
@@ -18962,7 +18962,7 @@
                 <text>Source: Player's Handbook, p. 55</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Bonus Proficiencies (College of Valor)</name>
@@ -18971,7 +18971,7 @@
                 <text>Source: Player's Handbook, p. 55</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Combat Inspiration (College of Valor)</name>
@@ -18980,11 +18980,11 @@
                 <text>Source: Player's Handbook, p. 55</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="4" scoreImprovement="YES">
             <slots>3, 4, 3</slots>
         </autolevel>
-        
+
         <autolevel level="4" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement</name>
@@ -18994,11 +18994,11 @@
                 <text>Source: Player's Handbook, p. 54</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="5">
             <slots>3, 4, 3, 2</slots>
         </autolevel>
-        
+
         <autolevel level="5">
             <feature>
                 <name>Font of Inspiration</name>
@@ -19007,11 +19007,11 @@
                 <text>Source: Player's Handbook, p. 54</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <slots>3, 4, 3, 3</slots>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature>
                 <name>Countercharm</name>
@@ -19020,7 +19020,7 @@
                 <text>Source: Player's Handbook, p. 54</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature optional="YES">
                 <name>Additional Magical Secrets (College of Lore)</name>
@@ -19029,7 +19029,7 @@
                 <text>Source: Player's Handbook, p. 55</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature optional="YES">
                 <name>Extra Attack (College of Valor)</name>
@@ -19038,15 +19038,15 @@
                 <text>Source: Player's Handbook, p. 55</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="7">
             <slots>3, 4, 3, 3, 1</slots>
         </autolevel>
-        
+
         <autolevel level="8" scoreImprovement="YES">
             <slots>3, 4, 3, 3, 2</slots>
         </autolevel>
-        
+
         <autolevel level="8" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement (2nd)</name>
@@ -19056,15 +19056,15 @@
                 <text>Source: Player's Handbook, p. 54</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="9">
             <slots>3, 4, 3, 3, 3, 1</slots>
         </autolevel>
-        
+
         <autolevel level="10">
             <slots>4, 4, 3, 3, 3, 2</slots>
         </autolevel>
-        
+
         <autolevel level="10">
             <feature>
                 <name>Magical Secrets</name>
@@ -19075,15 +19075,15 @@
                 <text>Source: Player's Handbook, p. 54</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="11">
             <slots>4, 4, 3, 3, 3, 2, 1</slots>
         </autolevel>
-        
+
         <autolevel level="12" scoreImprovement="YES">
             <slots>4, 4, 3, 3, 3, 2, 1</slots>
         </autolevel>
-        
+
         <autolevel level="12" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement (3rd)</name>
@@ -19093,15 +19093,15 @@
                 <text>Source: Player's Handbook, p. 54</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="13">
             <slots>4, 4, 3, 3, 3, 2, 1, 1</slots>
         </autolevel>
-        
+
         <autolevel level="14">
             <slots>4, 4, 3, 3, 3, 2, 1, 1</slots>
         </autolevel>
-        
+
         <autolevel level="14">
             <feature optional="YES">
                 <name>Peerless Skill (College of Lore)</name>
@@ -19110,7 +19110,7 @@
                 <text>Source: Player's Handbook, p. 55</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="14">
             <feature optional="YES">
                 <name>Battle Magic  (College of Valor)</name>
@@ -19119,15 +19119,15 @@
                 <text>Source: Player's Handbook, p. 55</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="15">
             <slots>4, 4, 3, 3, 3, 2, 1, 1, 1</slots>
         </autolevel>
-        
+
         <autolevel level="16" scoreImprovement="YES">
             <slots>4, 4, 3, 3, 3, 2, 1, 1, 1</slots>
         </autolevel>
-        
+
         <autolevel level="16" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement (4th)</name>
@@ -19137,19 +19137,19 @@
                 <text>Source: Player's Handbook, p. 54</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="17">
             <slots>4, 4, 3, 3, 3, 2, 1, 1, 1, 1</slots>
         </autolevel>
-        
+
         <autolevel level="18">
             <slots>4, 4, 3, 3, 3, 3, 1, 1, 1, 1</slots>
         </autolevel>
-        
+
         <autolevel level="19" scoreImprovement="YES">
             <slots>4, 4, 3, 3, 3, 3, 2, 1, 1, 1</slots>
         </autolevel>
-        
+
         <autolevel level="19" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement (5th)</name>
@@ -19159,11 +19159,11 @@
                 <text>Source: Player's Handbook, p. 54</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="20">
             <slots>4, 4, 3, 3, 3, 3, 2, 2, 1, 1</slots>
         </autolevel>
-        
+
         <autolevel level="20">
             <feature>
                 <name>Superior Inspiration</name>
@@ -19183,7 +19183,7 @@
         <weapons>simple weapons</weapons>
         <tools>none</tools>
         <wealth>5d4x10</wealth>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Starting Cleric</name>
@@ -19207,7 +19207,7 @@
                 <text>Source: Player's Handbook, p. 58</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Multiclass Cleric</name>
@@ -19220,11 +19220,11 @@
                 <text>Source: Player's Handbook, p. 163</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <slots>3, 2</slots>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature>
                 <name>Spellcasting</name>
@@ -19253,7 +19253,7 @@
                 <text>Source: Player's Handbook, p. 58</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature>
                 <name>Divine Domain</name>
@@ -19266,7 +19266,7 @@
                 <text>Source: Player's Handbook, p. 58</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Divine Domain: Death Domain</name>
@@ -19284,7 +19284,7 @@
                 <text>Source: Dungeon Master's Guide, p. 96</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Bonus Proficiency (Death Domain)</name>
@@ -19293,7 +19293,7 @@
                 <text>Source: Dungeon Master's Guide, p. 96</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Reaper (Death Domain)</name>
@@ -19302,7 +19302,7 @@
                 <text>Source: Dungeon Master's Guide, p. 96</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Divine Domain: Knowledge Domain</name>
@@ -19320,7 +19320,7 @@
                 <text>Source: Player's Handbook, p. 59</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Blessings of Knowledge (Knowledge Domain)</name>
@@ -19330,7 +19330,7 @@
                 <text>Source: Player's Handbook, p. 59</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Divine Domain: Life Domain</name>
@@ -19348,7 +19348,7 @@
                 <text>Source: Player's Handbook, p. 60</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Bonus Proficiency (Life Domain)</name>
@@ -19357,7 +19357,7 @@
                 <text>Source: Player's Handbook, p. 60</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Disciple of Life (Life Domain)</name>
@@ -19366,7 +19366,7 @@
                 <text>Source: Player's Handbook, p. 60</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Divine Domain: Light Domain</name>
@@ -19384,7 +19384,7 @@
                 <text>Source: Player's Handbook, p. 60</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Bonus Cantrip (Light Domain)</name>
@@ -19393,7 +19393,7 @@
                 <text>Source: Player's Handbook, p. 61</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Warding Flare (Light Domain)</name>
@@ -19403,7 +19403,7 @@
                 <text>Source: Player's Handbook, p. 61</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Divine Domain: Nature Domain</name>
@@ -19421,7 +19421,7 @@
                 <text>Source: Player's Handbook, p. 61</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Acolyte of Nature (Nature Domain)</name>
@@ -19430,7 +19430,7 @@
                 <text>Source: Player's Handbook, p. 62</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Bonus Proficiency (Nature Domain)</name>
@@ -19439,7 +19439,7 @@
                 <text>Source: Player's Handbook, p. 62</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Divine Domain: Tempest Domain</name>
@@ -19457,7 +19457,7 @@
                 <text>Source: Player's Handbook, p. 62</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Bonus Proficiencies (Tempest Domain)</name>
@@ -19466,7 +19466,7 @@
                 <text>Source: Player's Handbook, p. 62</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Wrath of the Storm (Tempest Domain)</name>
@@ -19476,7 +19476,7 @@
                 <text>Source: Player's Handbook, p. 62</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Divine Domain: Trickery Domain</name>
@@ -19494,7 +19494,7 @@
                 <text>Source: Player's Handbook, p. 62</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Blessing of the Trickster (Trickery Domain)</name>
@@ -19503,7 +19503,7 @@
                 <text>Source: Player's Handbook, p. 63</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Divine Domain: War Domain</name>
@@ -19521,7 +19521,7 @@
                 <text>Source: Player's Handbook, p. 63</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Bonus Proficiencies (War Domain)</name>
@@ -19530,7 +19530,7 @@
                 <text>Source: Player's Handbook, p. 63</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>War Priest (War Domain)</name>
@@ -19539,11 +19539,11 @@
                 <text>Source: Player's Handbook, p. 63</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <slots>3, 3</slots>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature>
                 <name>Channel Divinity</name>
@@ -19556,7 +19556,7 @@
             </feature>
             <counter><name>Channel Divinity</name><value>1</value><reset>S</reset></counter>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature>
                 <name>Channel Divinity: Turn Undead</name>
@@ -19566,7 +19566,7 @@
                 <text>Source: Player's Handbook, p. 59</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Channel Divinity: Touch of Death (Death Domain)</name>
@@ -19576,7 +19576,7 @@
                 <text>Source: Dungeon Master's Guide, p. 97</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Channel Divinity: Knowledge of the Ages (Knowledge Domain)</name>
@@ -19585,7 +19585,7 @@
                 <text>Source: Player's Handbook, p. 59</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Channel Divinity: Preserve Life (Life Domain)</name>
@@ -19595,7 +19595,7 @@
                 <text>Source: Player's Handbook, p. 60</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Channel Divinity: Radiance of the Dawn (Light Domain)</name>
@@ -19605,7 +19605,7 @@
                 <text>Source: Player's Handbook, p. 61</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Channel Divinity: Charm Animals and Plants (Nature Domain)</name>
@@ -19620,7 +19620,7 @@
                 <text>Source: Player's Handbook, p. 62</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Channel Divinity: Destructive Wrath (Tempest Domain)</name>
@@ -19630,7 +19630,7 @@
                 <text>Source: Player's Handbook, p. 62</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Channel Divinity: Invoke Duplicity (Trickery Domain)</name>
@@ -19641,7 +19641,7 @@
                 <text>Source: Player's Handbook, p. 63</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Channel Divinity: Guided Strike (War Domain)</name>
@@ -19650,15 +19650,15 @@
                 <text>Source: Player's Handbook, p. 63</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <slots>3, 4, 2</slots>
         </autolevel>
-        
+
         <autolevel level="4" scoreImprovement="YES">
             <slots>4, 4, 3</slots>
         </autolevel>
-        
+
         <autolevel level="4" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement</name>
@@ -19668,11 +19668,11 @@
                 <text>Source: Player's Handbook, p. 59</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="5">
             <slots>4, 4, 3, 2</slots>
         </autolevel>
-        
+
         <autolevel level="5">
             <feature>
                 <name>Destroy Undead</name>
@@ -19682,15 +19682,15 @@
                 <text>Source: Player's Handbook, p. 59</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <slots>4, 4, 3, 3</slots>
         </autolevel>
-        
+
         <autolevel level="6">
             <counter><name>Channel Divinity</name><value>2</value><reset>S</reset></counter>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature optional="YES">
                 <name>Inescapable Destruction (Death Domain)</name>
@@ -19699,7 +19699,7 @@
                 <text>Source: Dungeon Master's Guide, p. 97</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature optional="YES">
                 <name>Channel Divinity: Read Thoughts (Knowledge Domain)</name>
@@ -19711,7 +19711,7 @@
                 <text>Source: Player's Handbook, p. 59</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature optional="YES">
                 <name>Blessed Healer (Life Domain)</name>
@@ -19720,7 +19720,7 @@
                 <text>Source: Player's Handbook, p. 60</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature optional="YES">
                 <name>Improved Flare (Light Domain)</name>
@@ -19729,7 +19729,7 @@
                 <text>Source: Player's Handbook, p. 61</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature optional="YES">
                 <name>Dampen Elements (Nature Domain)</name>
@@ -19738,7 +19738,7 @@
                 <text>Source: Player's Handbook, p. 62</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature optional="YES">
                 <name>Thunderbolt Strike (Tempest Domain)</name>
@@ -19747,7 +19747,7 @@
                 <text>Source: Player's Handbook, p. 62</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature optional="YES">
                 <name>Channel Divinity: Cloak of Shadows (Trickery Domain)</name>
@@ -19762,7 +19762,7 @@
                 <text>Source: Player's Handbook, p. 63</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature optional="YES">
                 <name>Channel Divinity: War God's Blessing (War Domain)</name>
@@ -19771,15 +19771,15 @@
                 <text>Source: Player's Handbook, p. 63</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="7">
             <slots>4, 4, 3, 3, 1</slots>
         </autolevel>
-        
+
         <autolevel level="8" scoreImprovement="YES">
             <slots>4, 4, 3, 3, 2</slots>
         </autolevel>
-        
+
         <autolevel level="8" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement (2nd)</name>
@@ -19789,7 +19789,7 @@
                 <text>Source: Player's Handbook, p. 59</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="8" scoreImprovement="YES">
             <feature optional="YES">
                 <name>Divine Strike (Death Domain)</name>
@@ -19798,7 +19798,7 @@
                 <text>Source: Dungeon Master's Guide, p. 97</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="8" scoreImprovement="YES">
             <feature optional="YES">
                 <name>Potent Spellcasting (Knowledge Domain)</name>
@@ -19807,7 +19807,7 @@
                 <text>Source: Player's Handbook, p. 60</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="8" scoreImprovement="YES">
             <feature optional="YES">
                 <name>Divine Strike (Life Domain)</name>
@@ -19816,7 +19816,7 @@
                 <text>Source: Player's Handbook, p. 60</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="8" scoreImprovement="YES">
             <feature optional="YES">
                 <name>Potent Spellcasting (Light Domain)</name>
@@ -19825,7 +19825,7 @@
                 <text>Source: Player's Handbook, p. 61</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="8" scoreImprovement="YES">
             <feature optional="YES">
                 <name>Divine Strike (Nature Domain)</name>
@@ -19834,7 +19834,7 @@
                 <text>Source: Player's Handbook, p. 62</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="8" scoreImprovement="YES">
             <feature optional="YES">
                 <name>Divine Strike (Tempest Domain)</name>
@@ -19843,7 +19843,7 @@
                 <text>Source: Player's Handbook, p. 62</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="8" scoreImprovement="YES">
             <feature optional="YES">
                 <name>Divine Strike (Trickery Domain)</name>
@@ -19852,7 +19852,7 @@
                 <text>Source: Player's Handbook, p. 63</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="8" scoreImprovement="YES">
             <feature optional="YES">
                 <name>Divine Strike (War Domain)</name>
@@ -19861,15 +19861,15 @@
                 <text>Source: Player's Handbook, p. 63</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="9">
             <slots>4, 4, 3, 3, 3, 1</slots>
         </autolevel>
-        
+
         <autolevel level="10">
             <slots>5, 4, 3, 3, 3, 2</slots>
         </autolevel>
-        
+
         <autolevel level="10">
             <feature>
                 <name>Divine Intervention</name>
@@ -19881,15 +19881,15 @@
                 <text>Source: Player's Handbook, p. 59</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="11">
             <slots>5, 4, 3, 3, 3, 2, 1</slots>
         </autolevel>
-        
+
         <autolevel level="12" scoreImprovement="YES">
             <slots>5, 4, 3, 3, 3, 2, 1</slots>
         </autolevel>
-        
+
         <autolevel level="12" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement (3rd)</name>
@@ -19899,23 +19899,23 @@
                 <text>Source: Player's Handbook, p. 59</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="13">
             <slots>5, 4, 3, 3, 3, 2, 1, 1</slots>
         </autolevel>
-        
+
         <autolevel level="14">
             <slots>5, 4, 3, 3, 3, 2, 1, 1</slots>
         </autolevel>
-        
+
         <autolevel level="15">
             <slots>5, 4, 3, 3, 3, 2, 1, 1, 1</slots>
         </autolevel>
-        
+
         <autolevel level="16" scoreImprovement="YES">
             <slots>5, 4, 3, 3, 3, 2, 1, 1, 1</slots>
         </autolevel>
-        
+
         <autolevel level="16" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement (4th)</name>
@@ -19925,11 +19925,11 @@
                 <text>Source: Player's Handbook, p. 59</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="17">
             <slots>5, 4, 3, 3, 3, 2, 1, 1, 1, 1</slots>
         </autolevel>
-        
+
         <autolevel level="17">
             <feature optional="YES">
                 <name>Improved Reaper (Death Domain)</name>
@@ -19938,7 +19938,7 @@
                 <text>Source: Dungeon Master's Guide, p. 97</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="17">
             <feature optional="YES">
                 <name>Visions of the Past (Knowledge Domain)</name>
@@ -19952,7 +19952,7 @@
                 <text>Source: Player's Handbook, p. 60</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="17">
             <feature optional="YES">
                 <name>Supreme Healing (Life Domain)</name>
@@ -19961,7 +19961,7 @@
                 <text>Source: Player's Handbook, p. 60</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="17">
             <feature optional="YES">
                 <name>Corona of Light (Light Domain)</name>
@@ -19970,7 +19970,7 @@
                 <text>Source: Player's Handbook, p. 61</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="17">
             <feature optional="YES">
                 <name>Master of Nature (Nature Domain)</name>
@@ -19979,7 +19979,7 @@
                 <text>Source: Player's Handbook, p. 62</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="17">
             <feature optional="YES">
                 <name>Stormborn (Tempest Domain)</name>
@@ -19988,7 +19988,7 @@
                 <text>Source: Player's Handbook, p. 62</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="17">
             <feature optional="YES">
                 <name>Improved Duplicity (Trickery Domain)</name>
@@ -19997,7 +19997,7 @@
                 <text>Source: Player's Handbook, p. 63</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="17">
             <feature optional="YES">
                 <name>Avatar of Battle (War Domain)</name>
@@ -20006,19 +20006,19 @@
                 <text>Source: Player's Handbook, p. 63</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="18">
             <slots>5, 4, 3, 3, 3, 3, 1, 1, 1, 1</slots>
         </autolevel>
-        
+
         <autolevel level="18">
                 <counter><name>Channel Divinity</name><value>3</value><reset>S</reset></counter>
         </autolevel>
-        
+
         <autolevel level="19" scoreImprovement="YES">
             <slots>5, 4, 3, 3, 3, 3, 2, 1, 1, 1</slots>
         </autolevel>
-        
+
         <autolevel level="19" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement (5th)</name>
@@ -20028,7 +20028,7 @@
                 <text>Source: Player's Handbook, p. 59</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="20">
             <slots>5, 4, 3, 3, 3, 3, 2, 2, 1, 1</slots>
         </autolevel>
@@ -20043,7 +20043,7 @@
         <weapons>clubs, daggers, darts, javelins, maces, quarterstaffs, scimitars, sickles, slings, spears</weapons>
         <tools>herbalism kit</tools>
         <wealth>2d4x10</wealth>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Starting Druid</name>
@@ -20065,7 +20065,7 @@
                 <text>Source: Player's Handbook, p. 64</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Multiclass Druid</name>
@@ -20078,11 +20078,11 @@
                 <text>Source: Player's Handbook, p. 163</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <slots>2, 2</slots>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature>
                 <name>Druidic</name>
@@ -20091,7 +20091,7 @@
                 <text>Source: Player's Handbook, p. 66</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature>
                 <name>Spellcasting</name>
@@ -20120,11 +20120,11 @@
                 <text>Source: Player's Handbook, p. 66</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <slots>2, 3</slots>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature>
                 <name>Wild Shape</name>
@@ -20148,7 +20148,7 @@
             </feature>
             <counter><name>Wild Shape</name><value>2</value><reset>S</reset></counter>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature>
                 <name>Druid Circle</name>
@@ -20157,7 +20157,7 @@
                 <text>Source: Player's Handbook, p. 67</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Druid Circle: Circle of the Land</name>
@@ -20167,7 +20167,7 @@
                 <text>Source: Player's Handbook, p. 68</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Bonus Cantrip (Circle of the Land)</name>
@@ -20176,7 +20176,7 @@
                 <text>Source: Player's Handbook, p. 68</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Natural Recovery (Circle of the Land)</name>
@@ -20187,7 +20187,7 @@
             </feature>
             <counter><name>Natural Recovery</name><value>1</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Druid Circle: Circle of the Moon</name>
@@ -20197,7 +20197,7 @@
                 <text>Source: Player's Handbook, p. 69</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Combat Wild Shape (Circle of the Moon)</name>
@@ -20207,7 +20207,7 @@
                 <text>Source: Player's Handbook, p. 69</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Circle Forms (Circle of the Moon)</name>
@@ -20217,11 +20217,11 @@
                 <text>Source: Player's Handbook, p. 69</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <slots>2, 4, 2</slots>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Circle Spells (Circle of the Land)</name>
@@ -20231,7 +20231,7 @@
                 <text>Source: Player's Handbook, p. 68</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Circle of the Land: Arctic</name>
@@ -20245,7 +20245,7 @@
                 <text>Source: Player's Handbook, p. 68</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Circle of the Land: Coast</name>
@@ -20259,7 +20259,7 @@
                 <text>Source: Player's Handbook, p. 68</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Circle of the Land: Desert</name>
@@ -20273,7 +20273,7 @@
                 <text>Source: Player's Handbook, p. 68</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Circle of the Land: Forest</name>
@@ -20287,7 +20287,7 @@
                 <text>Source: Player's Handbook, p. 68</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Circle of the Land: Grassland</name>
@@ -20301,7 +20301,7 @@
                 <text>Source: Player's Handbook, p. 68</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Circle of the Land: Mountain</name>
@@ -20315,7 +20315,7 @@
                 <text>Source: Player's Handbook, p. 68</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Circle of the Land: Swamp</name>
@@ -20329,7 +20329,7 @@
                 <text>Source: Player's Handbook, p. 68</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Circle of the Land: Underdark</name>
@@ -20343,11 +20343,11 @@
                 <text>Source: Player's Handbook, p. 68</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="4" scoreImprovement="YES">
             <slots>3, 4, 3</slots>
         </autolevel>
-        
+
         <autolevel level="4" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement</name>
@@ -20357,15 +20357,15 @@
                 <text>Source: Player's Handbook, p. 67</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="5">
             <slots>3, 4, 3, 2</slots>
         </autolevel>
-        
+
         <autolevel level="6">
             <slots>3, 4, 3, 3</slots>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature optional="YES">
                 <name>Land's Stride (Circle of the Land)</name>
@@ -20375,7 +20375,7 @@
                 <text>Source: Player's Handbook, p. 69</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature optional="YES">
                 <name>Primal Strike (Circle of the Moon)</name>
@@ -20384,15 +20384,15 @@
                 <text>Source: Player's Handbook, p. 69</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="7">
             <slots>3, 4, 3, 3, 1</slots>
         </autolevel>
-        
+
         <autolevel level="8" scoreImprovement="YES">
             <slots>3, 4, 3, 3, 2</slots>
         </autolevel>
-        
+
         <autolevel level="8" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement (2nd)</name>
@@ -20402,15 +20402,15 @@
                 <text>Source: Player's Handbook, p. 67</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="9">
             <slots>3, 4, 3, 3, 3, 1</slots>
         </autolevel>
-        
+
         <autolevel level="10">
             <slots>4, 4, 3, 3, 3, 2</slots>
         </autolevel>
-        
+
         <autolevel level="10">
             <feature optional="YES">
                 <name>Nature's Ward (Circle of the Land)</name>
@@ -20419,7 +20419,7 @@
                 <text>Source: Player's Handbook, p. 69</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="10">
             <feature optional="YES">
                 <name>Elemental Wild Shape (Circle of the Moon)</name>
@@ -20428,15 +20428,15 @@
                 <text>Source: Player's Handbook, p. 69</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="11">
             <slots>4, 4, 3, 3, 3, 2, 1</slots>
         </autolevel>
-        
+
         <autolevel level="12" scoreImprovement="YES">
             <slots>4, 4, 3, 3, 3, 2, 1</slots>
         </autolevel>
-        
+
         <autolevel level="12" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement (3rd)</name>
@@ -20446,15 +20446,15 @@
                 <text>Source: Player's Handbook, p. 67</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="13">
             <slots>4, 4, 3, 3, 3, 2, 1, 1</slots>
         </autolevel>
-        
+
         <autolevel level="14">
             <slots>4, 4, 3, 3, 3, 2, 1, 1</slots>
         </autolevel>
-        
+
         <autolevel level="14">
             <feature optional="YES">
                 <name>Nature's Sanctuary (Circle of the Land)</name>
@@ -20464,7 +20464,7 @@
                 <text>Source: Player's Handbook, p. 69</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="14">
             <feature optional="YES">
                 <name>Thousand Forms (Circle of the Moon)</name>
@@ -20473,15 +20473,15 @@
                 <text>Source: Player's Handbook, p. 69</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="15">
             <slots>4, 4, 3, 3, 3, 2, 1, 1, 1</slots>
         </autolevel>
-        
+
         <autolevel level="16" scoreImprovement="YES">
             <slots>4, 4, 3, 3, 3, 2, 1, 1, 1</slots>
         </autolevel>
-        
+
         <autolevel level="16" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement (4th)</name>
@@ -20491,15 +20491,15 @@
                 <text>Source: Player's Handbook, p. 67</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="17">
             <slots>4, 4, 3, 3, 3, 2, 1, 1, 1, 1</slots>
         </autolevel>
-        
+
         <autolevel level="18">
             <slots>4, 4, 3, 3, 3, 3, 1, 1, 1, 1</slots>
         </autolevel>
-        
+
         <autolevel level="18">
             <feature>
                 <name>Timeless Body</name>
@@ -20508,7 +20508,7 @@
                 <text>Source: Player's Handbook, p. 67</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="18">
             <feature>
                 <name>Beast Spells</name>
@@ -20517,11 +20517,11 @@
                 <text>Source: Player's Handbook, p. 67</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="19" scoreImprovement="YES">
             <slots>4, 4, 3, 3, 3, 3, 2, 1, 1, 1</slots>
         </autolevel>
-        
+
         <autolevel level="19" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement (5th)</name>
@@ -20531,11 +20531,11 @@
                 <text>Source: Player's Handbook, p. 67</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="20">
             <slots>4, 4, 3, 3, 3, 3, 2, 2, 1, 1</slots>
         </autolevel>
-        
+
         <autolevel level="20">
             <feature>
                 <name>Archdruid</name>
@@ -20556,7 +20556,7 @@
         <weapons>simple weapons, martial weapons</weapons>
         <tools>none</tools>
         <wealth>5d4x10</wealth>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Starting Fighter</name>
@@ -20579,7 +20579,7 @@
                 <text>Source: Player's Handbook, p. 70</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Multiclass Fighter</name>
@@ -20592,7 +20592,7 @@
                 <text>Source: Player's Handbook, p. 163</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature>
                 <name>Second Wind</name>
@@ -20603,7 +20603,7 @@
             </feature>
             <counter><name>Second Wind</name><value>1</value><reset>S</reset></counter>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature>
                 <name>Fighting Style</name>
@@ -20612,7 +20612,7 @@
                 <text>Source: Player's Handbook, p. 72</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Fighting Style: Archery</name>
@@ -20622,7 +20622,7 @@
                 <special>fighting style archery</special>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Fighting Style: Defense</name>
@@ -20632,7 +20632,7 @@
                 <special>fighting style defense</special>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Fighting Style: Dueling</name>
@@ -20642,7 +20642,7 @@
                 <special>fighting style dueling</special>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Fighting Style: Great Weapon Fighting</name>
@@ -20651,7 +20651,7 @@
                 <text>Source: Player's Handbook, p. 72</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Fighting Style: Protection</name>
@@ -20660,7 +20660,7 @@
                 <text>Source: Player's Handbook, p. 72</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Fighting Style: Two-Weapon Fighting</name>
@@ -20669,7 +20669,7 @@
                 <text>Source: Player's Handbook, p. 72</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature>
                 <name>Action Surge</name>
@@ -20680,11 +20680,11 @@
             </feature>
             <counter><name>Action Surge</name><value>1</value><reset>S</reset></counter>
         </autolevel>
-        
+
         <autolevel level="3">
             <slots optional="YES">2, 2</slots>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature>
                 <name>Martial Archetype</name>
@@ -20693,7 +20693,7 @@
                 <text>Source: Player's Handbook, p. 72</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Martial Archetype: Battle Master</name>
@@ -20702,7 +20702,7 @@
                 <text>Source: Player's Handbook, p. 73</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Student of War (Battle Master)</name>
@@ -20711,7 +20711,7 @@
                 <text>Source: Player's Handbook, p. 73</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Combat Superiority (Battle Master)</name>
@@ -20730,7 +20730,7 @@
             </feature>
             <counter><name>Superiority Die</name><value>4</value><reset>S</reset></counter>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Martial Archetype: Champion</name>
@@ -20739,7 +20739,7 @@
                 <text>Source: Player's Handbook, p. 72</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Improved Critical (Champion)</name>
@@ -20748,7 +20748,7 @@
                 <text>Source: Player's Handbook, p. 72</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Martial Archetype: Eldritch Knight</name>
@@ -20757,7 +20757,7 @@
                 <text>Source: Player's Handbook, p. 74</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Spellcasting (Eldritch Knight)</name>
@@ -20781,7 +20781,7 @@
                 <text>Source: Player's Handbook, p. 75</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Weapon Bond (Eldritch Knight)</name>
@@ -20792,11 +20792,11 @@
                 <text>Source: Player's Handbook, p. 75</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="4" scoreImprovement="YES">
             <slots optional="YES">2, 3</slots>
         </autolevel>
-        
+
         <autolevel level="4" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement</name>
@@ -20806,11 +20806,11 @@
                 <text>Source: Player's Handbook, p. 72</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="5">
             <slots optional="YES">2, 3</slots>
         </autolevel>
-        
+
         <autolevel level="5">
             <feature>
                 <name>Extra Attack</name>
@@ -20820,11 +20820,11 @@
                 <text>Source: Player's Handbook, p. 72</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6" scoreImprovement="YES">
             <slots optional="YES">2, 3</slots>
         </autolevel>
-        
+
         <autolevel level="6" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement (2nd)</name>
@@ -20834,11 +20834,11 @@
                 <text>Source: Player's Handbook, p. 72</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="7">
             <slots optional="YES">2, 4, 2</slots>
         </autolevel>
-        
+
         <autolevel level="7">
             <feature optional="YES">
                 <name>Know Your Enemy (Battle Master)</name>
@@ -20857,7 +20857,7 @@
                 <text>Source: Player's Handbook, p. 73</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="7">
             <feature optional="YES">
                 <name>Additional Maneuvers (Battle Master)</name>
@@ -20867,7 +20867,7 @@
             </feature>
             <counter><name>Superiority Die</name><value>5</value><reset>S</reset></counter>
         </autolevel>
-        
+
         <autolevel level="7">
             <feature optional="YES">
                 <name>Remarkable Athlete (Champion)</name>
@@ -20877,7 +20877,7 @@
                 <text>Source: Player's Handbook, p. 72</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="7">
             <feature optional="YES">
                 <name>War Magic (Eldritch Knight)</name>
@@ -20886,11 +20886,11 @@
                 <text>Source: Player's Handbook, p. 75</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="8" scoreImprovement="YES">
             <slots optional="YES">2, 4, 2</slots>
         </autolevel>
-        
+
         <autolevel level="8" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement (3rd)</name>
@@ -20900,11 +20900,11 @@
                 <text>Source: Player's Handbook, p. 72</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="9">
             <slots optional="YES">2, 4, 2</slots>
         </autolevel>
-        
+
         <autolevel level="9">
             <feature>
                 <name>Indomitable</name>
@@ -20914,11 +20914,11 @@
             </feature>
             <counter><name>Indomitable</name><value>1</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="10">
             <slots optional="YES">3, 4, 3</slots>
         </autolevel>
-        
+
         <autolevel level="10">
             <feature optional="YES">
                 <name>Improved Combat Superiority (Battle Master)</name>
@@ -20927,7 +20927,7 @@
                 <text>Source: Player's Handbook, p. 74</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="10">
             <feature optional="YES">
                 <name>Additional Maneuvers (Battle Master)</name>
@@ -20936,7 +20936,7 @@
                 <text>Source: Player's Handbook, p. 73</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="10">
             <feature optional="YES">
                 <name>Additional Fighting Style (Champion)</name>
@@ -20945,7 +20945,7 @@
                 <text>Source: Player's Handbook, p. 73</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="10">
             <feature optional="YES">
                 <name>Fighting Style: Archery</name>
@@ -20955,7 +20955,7 @@
                 <special>fighting style archery</special>
             </feature>
         </autolevel>
-        
+
         <autolevel level="10">
             <feature optional="YES">
                 <name>Fighting Style: Defense</name>
@@ -20965,7 +20965,7 @@
                 <special>fighting style defense</special>
             </feature>
         </autolevel>
-        
+
         <autolevel level="10">
             <feature optional="YES">
                 <name>Fighting Style: Dueling</name>
@@ -20975,7 +20975,7 @@
                 <special>fighting style dueling</special>
             </feature>
         </autolevel>
-        
+
         <autolevel level="10">
             <feature optional="YES">
                 <name>Fighting Style: Great Weapon Fighting</name>
@@ -20984,7 +20984,7 @@
                 <text>Source: Player's Handbook, p. 72</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="10">
             <feature optional="YES">
                 <name>Fighting Style: Protection</name>
@@ -20993,7 +20993,7 @@
                 <text>Source: Player's Handbook, p. 72</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="10">
             <feature optional="YES">
                 <name>Fighting Style: Two-Weapon Fighting</name>
@@ -21002,7 +21002,7 @@
                 <text>Source: Player's Handbook, p. 72</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="10">
             <feature optional="YES">
                 <name>Eldritch Strike (Eldritch Knight)</name>
@@ -21011,15 +21011,15 @@
                 <text>Source: Player's Handbook, p. 75</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="11">
             <slots optional="YES">3, 4, 3</slots>
         </autolevel>
-        
+
         <autolevel level="12" scoreImprovement="YES">
             <slots optional="YES">3, 4, 3</slots>
         </autolevel>
-        
+
         <autolevel level="12" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement (4th)</name>
@@ -21029,19 +21029,19 @@
                 <text>Source: Player's Handbook, p. 72</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="13">
             <slots optional="YES">3, 4, 3, 2</slots>
         </autolevel>
-        
+
         <autolevel level="13">
                 <counter><name>Indomitable</name><value>2</value><reset>S</reset></counter>
         </autolevel>
-        
+
         <autolevel level="14" scoreImprovement="YES">
             <slots optional="YES">3, 4, 3, 2</slots>
         </autolevel>
-        
+
         <autolevel level="14" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement (5th)</name>
@@ -21051,11 +21051,11 @@
                 <text>Source: Player's Handbook, p. 72</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="15">
             <slots optional="YES">3, 4, 3, 2</slots>
         </autolevel>
-        
+
         <autolevel level="15">
             <feature optional="YES">
                 <name>Relentless (Battle Master)</name>
@@ -21064,7 +21064,7 @@
                 <text>Source: Player's Handbook, p. 74</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="15">
             <feature optional="YES">
                 <name>Additional Maneuvers (Battle Master)</name>
@@ -21074,7 +21074,7 @@
             </feature>
             <counter><name>Superiority Die</name><value>6</value><reset>S</reset></counter>
         </autolevel>
-        
+
         <autolevel level="15">
             <feature optional="YES">
                 <name>Superior Critical (Champion)</name>
@@ -21083,7 +21083,7 @@
                 <text>Source: Player's Handbook, p. 73</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="15">
             <feature optional="YES">
                 <name>Arcane Charge (Eldritch Knight)</name>
@@ -21092,11 +21092,11 @@
                 <text>Source: Player's Handbook, p. 75</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="16" scoreImprovement="YES">
             <slots optional="YES">3, 4, 3, 3</slots>
         </autolevel>
-        
+
         <autolevel level="16" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement (7th)</name>
@@ -21106,20 +21106,20 @@
                 <text>Source: Player's Handbook, p. 72</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="17">
             <slots optional="YES">3, 4, 3, 3</slots>
         </autolevel>
-        
+
         <autolevel level="17">
                 <counter><name>Action Surge</name><value>2</value><reset>S</reset></counter>
                 <counter><name>Indomitable</name><value>3</value><reset>S</reset></counter>
         </autolevel>
-        
+
         <autolevel level="18">
             <slots optional="YES">3, 4, 3, 3</slots>
         </autolevel>
-        
+
         <autolevel level="18">
             <feature optional="YES">
                 <name>Survivor (Champion)</name>
@@ -21128,7 +21128,7 @@
                 <text>Source: Player's Handbook, p. 73</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="18">
             <feature optional="YES">
                 <name>Improved War Magic (Eldritch Knight)</name>
@@ -21137,11 +21137,11 @@
                 <text>Source: Player's Handbook, p. 75</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="19" scoreImprovement="YES">
             <slots optional="YES">3, 4, 3, 3, 1</slots>
         </autolevel>
-        
+
         <autolevel level="19" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement (8th)</name>
@@ -21151,7 +21151,7 @@
                 <text>Source: Player's Handbook, p. 72</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="20">
             <slots optional="YES">3, 4, 3, 3, 1</slots>
         </autolevel>
@@ -21166,7 +21166,7 @@
         <weapons>simple weapons, shortswords</weapons>
         <tools>any one type of artisan's tools or any one musical instrument of your choice</tools>
         <wealth>5d4</wealth>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Starting Monk</name>
@@ -21188,7 +21188,7 @@
                 <text>Source: Player's Handbook, p. 76</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Multiclass Monk</name>
@@ -21201,7 +21201,7 @@
                 <text>Source: Player's Handbook, p. 163</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature>
                 <name>Unarmored Defense</name>
@@ -21211,7 +21211,7 @@
                 <special>unarmored defense wisdom</special>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature>
                 <name>Martial Arts</name>
@@ -21229,7 +21229,7 @@
                 <text>Source: Player's Handbook, p. 78</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature>
                 <name>Ki</name>
@@ -21243,7 +21243,7 @@
             </feature>
             <counter><name>Ki</name><value>2</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature>
                 <name>Flurry of Blows</name>
@@ -21252,7 +21252,7 @@
                 <text>Source: Player's Handbook, p. 78</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature>
                 <name>Patient Defense</name>
@@ -21261,7 +21261,7 @@
                 <text>Source: Player's Handbook, p. 78</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature>
                 <name>Step of the Wind</name>
@@ -21270,7 +21270,7 @@
                 <text>Source: Player's Handbook, p. 78</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature>
                 <name>Unarmored Movement</name>
@@ -21281,11 +21281,11 @@
                 <modifier category="bonus">speed +10</modifier>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
                 <counter><name>Ki</name><value>3</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature>
                 <name>Deflect Missiles</name>
@@ -21295,7 +21295,7 @@
                 <text>Source: Player's Handbook, p. 78</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature>
                 <name>Monastic Tradition</name>
@@ -21304,7 +21304,7 @@
                 <text>Source: Player's Handbook, p. 78</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Monastic Tradition: Way of Shadow</name>
@@ -21313,7 +21313,7 @@
                 <text>Source: Player's Handbook, p. 80</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Shadow Arts (Way of Shadow)</name>
@@ -21322,7 +21322,7 @@
                 <text>Source: Player's Handbook, p. 80</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Monastic Tradition: Way of the Four Elements</name>
@@ -21332,7 +21332,7 @@
                 <text>Source: Player's Handbook, p. 80</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Disciple of the Elements (Way of the Four Elements)</name>
@@ -21347,7 +21347,7 @@
                 <text>Source: Player's Handbook, p. 80</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Monastic Tradition: Way of the Open Hand</name>
@@ -21356,7 +21356,7 @@
                 <text>Source: Player's Handbook, p. 79</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Open Hand Technique (Way of the Open Hand)</name>
@@ -21378,11 +21378,11 @@
                 <text>Source: Player's Handbook, p. 79</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="4">
                 <counter><name>Ki</name><value>4</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="4" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement</name>
@@ -21392,7 +21392,7 @@
                 <text>Source: Player's Handbook, p. 78</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="4" scoreImprovement="YES">
             <feature>
                 <name>Slow Fall</name>
@@ -21401,11 +21401,11 @@
                 <text>Source: Player's Handbook, p. 78</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="5">
                 <counter><name>Ki</name><value>5</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="5">
             <feature>
                 <name>Extra Attack</name>
@@ -21414,7 +21414,7 @@
                 <text>Source: Player's Handbook, p. 79</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="5">
             <feature>
                 <name>Stunning Strike</name>
@@ -21430,11 +21430,11 @@
                 <text>Source: Player's Handbook, p. 79</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
                 <counter><name>Ki</name><value>6</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature>
                 <name>Ki-Empowered Strikes</name>
@@ -21443,7 +21443,7 @@
                 <text>Source: Player's Handbook, p. 79</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature optional="YES">
                 <name>Shadow Step (Way of Shadow)</name>
@@ -21452,7 +21452,7 @@
                 <text>Source: Player's Handbook, p. 80</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature optional="YES">
                 <name>Additional Elemental Discipline (Way of the Four Elements)</name>
@@ -21461,7 +21461,7 @@
                 <text>Source: Player's Handbook, p. 80</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature optional="YES">
                 <name>Wholeness of Body (Way of the Open Hand)</name>
@@ -21471,11 +21471,11 @@
             </feature>
             <counter><name>Wholeness of Body</name><value>1</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="7">
                 <counter><name>Ki</name><value>7</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="7">
             <feature>
                 <name>Evasion</name>
@@ -21484,7 +21484,7 @@
                 <text>Source: Player's Handbook, p. 79</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="7">
             <feature>
                 <name>Stillness of Mind</name>
@@ -21493,11 +21493,11 @@
                 <text>Source: Player's Handbook, p. 79</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="8">
                 <counter><name>Ki</name><value>8</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="8" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement (2nd)</name>
@@ -21507,15 +21507,15 @@
                 <text>Source: Player's Handbook, p. 78</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="9">
                 <counter><name>Ki</name><value>9</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="10">
                 <counter><name>Ki</name><value>10</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="10">
             <feature>
                 <name>Purity of Body</name>
@@ -21524,11 +21524,11 @@
                 <text>Source: Player's Handbook, p. 79</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="11">
                 <counter><name>Ki</name><value>11</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="11">
             <feature optional="YES">
                 <name>Cloak of Shadows (Way of Shadow)</name>
@@ -21542,7 +21542,7 @@
                 <text>Source: Player's Handbook, p. 80</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="11">
             <feature optional="YES">
                 <name>Additional Elemental Discipline (Way of the Four Elements)</name>
@@ -21551,7 +21551,7 @@
                 <text>Source: Player's Handbook, p. 80</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="11">
             <feature optional="YES">
                 <name>Tranquility (Way of the Open Hand)</name>
@@ -21560,11 +21560,11 @@
                 <text>Source: Player's Handbook, p. 80</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="12">
                 <counter><name>Ki</name><value>12</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="12" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement (3rd)</name>
@@ -21574,11 +21574,11 @@
                 <text>Source: Player's Handbook, p. 78</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="13">
                 <counter><name>Ki</name><value>13</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="13">
             <feature>
                 <name>Tongue of the Sun and Moon</name>
@@ -21587,11 +21587,11 @@
                 <text>Source: Player's Handbook, p. 79</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="14">
                 <counter><name>Ki</name><value>14</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="14">
             <feature>
                 <name>Diamond Soul</name>
@@ -21602,11 +21602,11 @@
                 <proficiency>constitution, intelligence, wisdom, charisma</proficiency>
             </feature>
         </autolevel>
-        
+
         <autolevel level="15">
                 <counter><name>Ki</name><value>15</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="15">
             <feature>
                 <name>Timeless Body</name>
@@ -21615,11 +21615,11 @@
                 <text>Source: Player's Handbook, p. 79</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="16">
                 <counter><name>Ki</name><value>16</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="16" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement (4th)</name>
@@ -21629,11 +21629,11 @@
                 <text>Source: Player's Handbook, p. 78</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="17">
                 <counter><name>Ki</name><value>17</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="17">
             <feature optional="YES">
                 <name>Opportunist (Way of Shadow)</name>
@@ -21642,7 +21642,7 @@
                 <text>Source: Player's Handbook, p. 80</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="17">
             <feature optional="YES">
                 <name>Additional Elemental Discipline (Way of the Four Elements)</name>
@@ -21651,7 +21651,7 @@
                 <text>Source: Player's Handbook, p. 80</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="17">
             <feature optional="YES">
                 <name>Quivering Palm (Way of the Open Hand)</name>
@@ -21661,11 +21661,11 @@
                 <text>Source: Player's Handbook, p. 80</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="18">
                 <counter><name>Ki</name><value>18</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="18">
             <feature>
                 <name>Empty Body</name>
@@ -21680,11 +21680,11 @@
                 <text>Source: Player's Handbook, p. 79</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="19">
                 <counter><name>Ki</name><value>19</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="19" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement (5th)</name>
@@ -21694,11 +21694,11 @@
                 <text>Source: Player's Handbook, p. 78</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="20">
                 <counter><name>Ki</name><value>20</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="20">
             <feature>
                 <name>Perfect Self</name>
@@ -21718,7 +21718,7 @@
         <weapons>simple weapons, martial weapons</weapons>
         <tools>none</tools>
         <wealth>5d4x10</wealth>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Starting Paladin</name>
@@ -21741,7 +21741,7 @@
                 <text>Source: Player's Handbook, p. 82</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Multiclass Paladin</name>
@@ -21754,7 +21754,7 @@
                 <text>Source: Player's Handbook, p. 163</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature>
                 <name>Divine Sense</name>
@@ -21764,7 +21764,7 @@
                 <text>Source: Player's Handbook, p. 84</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature>
                 <name>Lay on Hands</name>
@@ -21776,11 +21776,11 @@
                 <text>Source: Player's Handbook, p. 84</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <slots>0,2</slots>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature>
                 <name>Spellcasting</name>
@@ -21803,7 +21803,7 @@
                 <text>Source: Player's Handbook, p. 84</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature>
                 <name>Divine Smite</name>
@@ -21812,7 +21812,7 @@
                 <text>Source: Player's Handbook, p. 85</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature>
                 <name>Fighting Style</name>
@@ -21821,7 +21821,7 @@
                 <text>Source: Player's Handbook, p. 84</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Fighting Style: Defense</name>
@@ -21831,7 +21831,7 @@
                 <special>fighting style defense</special>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Fighting Style: Dueling</name>
@@ -21841,7 +21841,7 @@
                 <special>fighting style dueling</special>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Fighting Style: Great Weapon Fighting</name>
@@ -21850,7 +21850,7 @@
                 <text>Source: Player's Handbook, p. 84</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Fighting Style: Protection</name>
@@ -21859,11 +21859,11 @@
                 <text>Source: Player's Handbook, p. 84</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <slots>0,3</slots>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature>
                 <name>Divine Health</name>
@@ -21872,7 +21872,7 @@
                 <text>Source: Player's Handbook, p. 85</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature>
                 <name>Sacred Oath</name>
@@ -21886,7 +21886,7 @@
                 <text>Source: Player's Handbook, p. 85</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature>
                 <name>Channel Divinity</name>
@@ -21898,7 +21898,7 @@
             </feature>
             <counter><name>Channel Divinity</name><value>1</value><reset>S</reset></counter>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Sacred Oath: Oath of Devotion</name>
@@ -21928,7 +21928,7 @@
                 <text>Source: Player's Handbook, p. 85</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Channel Divinity: Sacred Weapon (Oath of Devotion)</name>
@@ -21938,7 +21938,7 @@
                 <text>Source: Player's Handbook, p. 86</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Channel Divinity: Turn the Unholy (Oath of Devotion)</name>
@@ -21948,7 +21948,7 @@
                 <text>Source: Player's Handbook, p. 86</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Sacred Oath: Oath of the Ancients</name>
@@ -21977,7 +21977,7 @@
                 <text>Source: Player's Handbook, p. 86</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Channel Divinity: Nature's Wrath (Oath of the Ancients)</name>
@@ -21993,7 +21993,7 @@
                 <text>Source: Player's Handbook, p. 87</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Channel Divinity: Turn the Faithless (Oath of the Ancients)</name>
@@ -22004,7 +22004,7 @@
                 <text>Source: Player's Handbook, p. 87</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Sacred Oath: Oath of Vengeance</name>
@@ -22033,7 +22033,7 @@
                 <text>Source: Player's Handbook, p. 87</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Channel Divinity: Abjure Enemy (Oath of Vengeance)</name>
@@ -22044,7 +22044,7 @@
                 <text>Source: Player's Handbook, p. 88</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Channel Divinity: Vow of Enmity (Oath of Vengeance)</name>
@@ -22058,7 +22058,7 @@
                 <text>Source: Player's Handbook, p. 88</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Sacred Oath: Oathbreaker</name>
@@ -22077,7 +22077,7 @@
                 <text>Source: Dungeon Master's Guide, p. 97</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Channel Divinity: Control Undead (Oathbreaker)</name>
@@ -22086,7 +22086,7 @@
                 <text>Source: Dungeon Master's Guide, p. 97</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Channel Divinity: Dreadful Aspect (Oathbreaker)</name>
@@ -22100,11 +22100,11 @@
                 <text>Source: Dungeon Master's Guide, p. 97</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="4" scoreImprovement="YES">
             <slots>0,3</slots>
         </autolevel>
-        
+
         <autolevel level="4" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement</name>
@@ -22114,11 +22114,11 @@
                 <text>Source: Player's Handbook, p. 85</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="5">
             <slots>0,4,2</slots>
         </autolevel>
-        
+
         <autolevel level="5">
             <feature>
                 <name>Extra Attack</name>
@@ -22127,11 +22127,11 @@
                 <text>Source: Player's Handbook, p. 85</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <slots>0,4,2</slots>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature>
                 <name>Aura of Protection</name>
@@ -22141,11 +22141,11 @@
                 <text>Source: Player's Handbook, p. 85</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="7">
             <slots>0,4,3</slots>
         </autolevel>
-        
+
         <autolevel level="7">
             <feature optional="YES">
                 <name>Aura of Devotion (Oath of Devotion)</name>
@@ -22155,7 +22155,7 @@
                 <text>Source: Player's Handbook, p. 86</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="7">
             <feature optional="YES">
                 <name>Aura of Warding (Oath of the Ancients)</name>
@@ -22165,7 +22165,7 @@
                 <text>Source: Player's Handbook, p. 87</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="7">
             <feature optional="YES">
                 <name>Relentless Avenger (Oath of Vengeance)</name>
@@ -22174,7 +22174,7 @@
                 <text>Source: Player's Handbook, p. 88</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="7">
             <feature optional="YES">
                 <name>Aura of Hate (Oathbreaker)</name>
@@ -22184,11 +22184,11 @@
                 <text>Source: Dungeon Master's Guide, p. 97</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="8" scoreImprovement="YES">
             <slots>0,4,3</slots>
         </autolevel>
-        
+
         <autolevel level="8" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement (2nd)</name>
@@ -22198,15 +22198,15 @@
                 <text>Source: Player's Handbook, p. 85</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="9">
             <slots>0,4,3,2</slots>
         </autolevel>
-        
+
         <autolevel level="10">
             <slots>0,4,3,2</slots>
         </autolevel>
-        
+
         <autolevel level="10">
             <feature>
                 <name>Aura of Courage</name>
@@ -22216,11 +22216,11 @@
                 <text>Source: Player's Handbook, p. 85</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="11">
             <slots>0,4,3,3</slots>
         </autolevel>
-        
+
         <autolevel level="11">
             <feature>
                 <name>Improved Divine Smite</name>
@@ -22229,11 +22229,11 @@
                 <text>Source: Player's Handbook, p. 85</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="12" scoreImprovement="YES">
             <slots>0,4,3,3</slots>
         </autolevel>
-        
+
         <autolevel level="12" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement (3rd)</name>
@@ -22243,15 +22243,15 @@
                 <text>Source: Player's Handbook, p. 85</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="13">
             <slots>0,4,3,3,1</slots>
         </autolevel>
-        
+
         <autolevel level="14">
             <slots>0,4,3,3,1</slots>
         </autolevel>
-        
+
         <autolevel level="14">
             <feature>
                 <name>Cleansing Touch</name>
@@ -22261,11 +22261,11 @@
                 <text>Source: Player's Handbook, p. 85</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="15">
             <slots>0, 4, 3, 3, 2</slots>
         </autolevel>
-        
+
         <autolevel level="15">
             <feature optional="YES">
                 <name>Purity of Spirit (Oath of Devotion)</name>
@@ -22274,7 +22274,7 @@
                 <text>Source: Player's Handbook, p. 86</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="15">
             <feature optional="YES">
                 <name>Undying Sentinel (Oath of the Ancients)</name>
@@ -22285,7 +22285,7 @@
             </feature>
             <counter><name>Undying Sentinel</name><value>1</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="15">
             <feature optional="YES">
                 <name>Soul of Vengeance (Oath of Vengeance)</name>
@@ -22294,7 +22294,7 @@
                 <text>Source: Player's Handbook, p. 88</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="15">
             <feature optional="YES">
                 <name>Supernatural Resistance (Oathbreaker)</name>
@@ -22303,11 +22303,11 @@
                 <text>Source: Dungeon Master's Guide, p. 97</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="16" scoreImprovement="YES">
             <slots>0, 4, 3, 3, 2</slots>
         </autolevel>
-        
+
         <autolevel level="16" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement (4th)</name>
@@ -22317,19 +22317,19 @@
                 <text>Source: Player's Handbook, p. 85</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="17">
             <slots>0, 4, 3, 3, 3, 1</slots>
         </autolevel>
-        
+
         <autolevel level="18">
             <slots>0, 4, 3, 3, 3, 1</slots>
         </autolevel>
-        
+
         <autolevel level="19" scoreImprovement="YES">
             <slots>0, 4, 3, 3, 3, 2</slots>
         </autolevel>
-        
+
         <autolevel level="19" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement (5th)</name>
@@ -22339,11 +22339,11 @@
                 <text>Source: Player's Handbook, p. 85</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="20">
             <slots>0, 4, 3, 3, 3, 2</slots>
         </autolevel>
-        
+
         <autolevel level="20">
             <feature optional="YES">
                 <name>Holy Nimbus (Oath of Devotion)</name>
@@ -22356,7 +22356,7 @@
             </feature>
             <counter><name>Holy Nimbus</name><value>1</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="20">
             <feature optional="YES">
                 <name>Elder Champion (Oath of the Ancients)</name>
@@ -22375,7 +22375,7 @@
             </feature>
             <counter><name>Elder Champion</name><value>1</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="20">
             <feature optional="YES">
                 <name>Avenging Angel (Oath of Vengeance)</name>
@@ -22391,7 +22391,7 @@
             </feature>
             <counter><name>Avenging Angel</name><value>1</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="20">
             <feature optional="YES">
                 <name>Dread Lord (Oathbreaker)</name>
@@ -22414,7 +22414,7 @@
         <weapons>simple weapons, martial weapons</weapons>
         <tools>none</tools>
         <wealth>5d4x10</wealth>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Starting Ranger</name>
@@ -22437,7 +22437,7 @@
                 <text>Source: Player's Handbook, p. 89</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Multiclass Ranger</name>
@@ -22450,7 +22450,7 @@
                 <text>Source: Player's Handbook, p. 163</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature>
                 <name>Favored Enemy</name>
@@ -22463,7 +22463,7 @@
                 <text>Source: Player's Handbook, p. 91</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature>
                 <name>Natural Explorer</name>
@@ -22487,11 +22487,11 @@
                 <text>Source: Player's Handbook, p. 91</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <slots>0, 2</slots>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature>
                 <name>Spellcasting</name>
@@ -22514,7 +22514,7 @@
                 <text>Source: Player's Handbook, p. 91</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature>
                 <name>Fighting Style</name>
@@ -22523,7 +22523,7 @@
                 <text>Source: Player's Handbook, p. 91</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Fighting Style: Archery</name>
@@ -22533,7 +22533,7 @@
                 <special>fighting style archery</special>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Fighting Style: Defense</name>
@@ -22543,7 +22543,7 @@
                 <special>fighting style defense</special>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Fighting Style: Dueling</name>
@@ -22553,7 +22553,7 @@
                 <special>fighting style dueling</special>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Fighting Style: Two-Weapon Fighting</name>
@@ -22562,11 +22562,11 @@
                 <text>Source: Player's Handbook, p. 91</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <slots>0,3</slots>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature>
                 <name>Primeval Awareness</name>
@@ -22575,7 +22575,7 @@
                 <text>Source: Player's Handbook, p. 92</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature>
                 <name>Ranger Archetype</name>
@@ -22584,7 +22584,7 @@
                 <text>Source: Player's Handbook, p. 92</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Ranger Archetype: Beast Master</name>
@@ -22593,7 +22593,7 @@
                 <text>Source: Player's Handbook, p. 93</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Ranger's Companion (Beast Master)</name>
@@ -22606,7 +22606,7 @@
                 <text>Source: Player's Handbook, p. 93</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Ranger Archetype: Hunter</name>
@@ -22615,7 +22615,7 @@
                 <text>Source: Player's Handbook, p. 93</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Hunter's Prey (Hunter)</name>
@@ -22624,7 +22624,7 @@
                 <text>Source: Player's Handbook, p. 93</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Hunter's Prey: Colossus Slayer</name>
@@ -22633,7 +22633,7 @@
                 <text>Source: Player's Handbook, p. 93</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Hunter's Prey: Giant Killer</name>
@@ -22642,7 +22642,7 @@
                 <text>Source: Player's Handbook, p. 93</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Hunter's Prey: Horde Breaker</name>
@@ -22651,11 +22651,11 @@
                 <text>Source: Player's Handbook, p. 93</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="4" scoreImprovement="YES">
             <slots>0,3</slots>
         </autolevel>
-        
+
         <autolevel level="4" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement</name>
@@ -22665,11 +22665,11 @@
                 <text>Source: Player's Handbook, p. 92</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="5">
             <slots>0, 4, 2</slots>
         </autolevel>
-        
+
         <autolevel level="5">
             <feature>
                 <name>Extra Attack</name>
@@ -22678,15 +22678,15 @@
                 <text>Source: Player's Handbook, p. 92</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <slots>0, 4, 2</slots>
         </autolevel>
-        
+
         <autolevel level="7">
             <slots>0, 4, 3</slots>
         </autolevel>
-        
+
         <autolevel level="7">
             <feature optional="YES">
                 <name>Exceptional Training (Beast Master)</name>
@@ -22695,7 +22695,7 @@
                 <text>Source: Player's Handbook, p. 93</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="7">
             <feature optional="YES">
                 <name>Defensive Tactics (Hunter)</name>
@@ -22704,7 +22704,7 @@
                 <text>Source: Player's Handbook, p. 93</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="7">
             <feature optional="YES">
                 <name>Defensive Tactics: Escape the Horde</name>
@@ -22713,7 +22713,7 @@
                 <text>Source: Player's Handbook, p. 93</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="7">
             <feature optional="YES">
                 <name>Defensive Tactics: Multiattack Defense</name>
@@ -22722,7 +22722,7 @@
                 <text>Source: Player's Handbook, p. 93</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="7">
             <feature optional="YES">
                 <name>Defensive Tactics: Steel Will</name>
@@ -22731,11 +22731,11 @@
                 <text>Source: Player's Handbook, p. 93</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="8" scoreImprovement="YES">
             <slots>0, 4, 3</slots>
         </autolevel>
-        
+
         <autolevel level="8" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement (2nd)</name>
@@ -22745,7 +22745,7 @@
                 <text>Source: Player's Handbook, p. 92</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="8" scoreImprovement="YES">
             <feature>
                 <name>Land's Stride</name>
@@ -22755,15 +22755,15 @@
                 <text>Source: Player's Handbook, p. 92</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="9">
             <slots>0, 4, 3, 2</slots>
         </autolevel>
-        
+
         <autolevel level="10">
             <slots>0, 4, 3, 2</slots>
         </autolevel>
-        
+
         <autolevel level="10">
             <feature>
                 <name>Hide in Plain Sight</name>
@@ -22773,11 +22773,11 @@
                 <text>Source: Player's Handbook, p. 92</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="11">
             <slots>0, 4, 3, 3</slots>
         </autolevel>
-        
+
         <autolevel level="11">
             <feature optional="YES">
                 <name>Bestial Fury (Beast Master)</name>
@@ -22786,7 +22786,7 @@
                 <text>Source: Player's Handbook, p. 93</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="11">
             <feature optional="YES">
                 <name>Multiattack (Hunter)</name>
@@ -22795,7 +22795,7 @@
                 <text>Source: Player's Handbook, p. 93</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="11">
             <feature optional="YES">
                 <name>Multiattack: Volley</name>
@@ -22804,7 +22804,7 @@
                 <text>Source: Player's Handbook, p. 93</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="11">
             <feature optional="YES">
                 <name>Multiattack: Whirlwind Attack</name>
@@ -22813,11 +22813,11 @@
                 <text>Source: Player's Handbook, p. 93</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="12" scoreImprovement="YES">
             <slots>0, 4, 3, 3</slots>
         </autolevel>
-        
+
         <autolevel level="12" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement (3rd)</name>
@@ -22827,15 +22827,15 @@
                 <text>Source: Player's Handbook, p. 92</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="13">
             <slots>0, 4, 3, 3, 1</slots>
         </autolevel>
-        
+
         <autolevel level="14">
             <slots>0, 4, 3, 3, 1</slots>
         </autolevel>
-        
+
         <autolevel level="14">
             <feature>
                 <name>Vanish</name>
@@ -22844,11 +22844,11 @@
                 <text>Source: Player's Handbook, p. 92</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="15">
             <slots>0, 4, 3, 3, 2</slots>
         </autolevel>
-        
+
         <autolevel level="15">
             <feature optional="YES">
                 <name>Share Spells (Beast Master)</name>
@@ -22857,7 +22857,7 @@
                 <text>Source: Player's Handbook, p. 93</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="15">
             <feature optional="YES">
                 <name>Superior Hunter's Defense (Hunter)</name>
@@ -22866,7 +22866,7 @@
                 <text>Source: Player's Handbook, p. 93</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="15">
             <feature optional="YES">
                 <name>Superior Hunter's Defense: Evasion</name>
@@ -22875,7 +22875,7 @@
                 <text>Source: Player's Handbook, p. 93</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="15">
             <feature optional="YES">
                 <name>Superior Hunter's Defense: Stand Against the Tide</name>
@@ -22884,7 +22884,7 @@
                 <text>Source: Player's Handbook, p. 93</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="15">
             <feature optional="YES">
                 <name>Superior Hunter's Defense: Uncanny Dodge</name>
@@ -22893,11 +22893,11 @@
                 <text>Source: Player's Handbook, p. 93</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="16" scoreImprovement="YES">
             <slots>0, 4, 3, 3, 2</slots>
         </autolevel>
-        
+
         <autolevel level="16" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement (4th)</name>
@@ -22907,15 +22907,15 @@
                 <text>Source: Player's Handbook, p. 92</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="17">
             <slots>0, 4, 3, 3, 3, 1</slots>
         </autolevel>
-        
+
         <autolevel level="18">
             <slots>0, 4, 3, 3, 3, 1</slots>
         </autolevel>
-        
+
         <autolevel level="18">
             <feature>
                 <name>Feral Senses</name>
@@ -22925,11 +22925,11 @@
                 <text>Source: Player's Handbook, p. 92</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="19" scoreImprovement="YES">
             <slots>0, 4, 3, 3, 3, 2</slots>
         </autolevel>
-        
+
         <autolevel level="19" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement (5th)</name>
@@ -22939,11 +22939,11 @@
                 <text>Source: Player's Handbook, p. 92</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="20">
             <slots>0, 4, 3, 3, 3, 2</slots>
         </autolevel>
-        
+
         <autolevel level="20">
             <feature>
                 <name>Foe Slayer</name>
@@ -22963,7 +22963,7 @@
         <weapons>simple weapons, hand crossbows, longswords, rapiers, shortswords</weapons>
         <tools>thieves' tools</tools>
         <wealth>4d4x10</wealth>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Starting Rogue</name>
@@ -22986,7 +22986,7 @@
                 <text>Source: Player's Handbook, p. 94</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Multiclass Rogue</name>
@@ -22999,7 +22999,7 @@
                 <text>Source: Player's Handbook, p. 163</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature>
                 <name>Expertise</name>
@@ -23009,7 +23009,7 @@
                 <text>Source: Player's Handbook, p. 96</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature>
                 <name>Sneak Attack</name>
@@ -23020,7 +23020,7 @@
                 <text>Source: Player's Handbook, p. 96</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature>
                 <name>Thieves' Cant</name>
@@ -23030,7 +23030,7 @@
                 <text>Source: Player's Handbook, p. 96</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature>
                 <name>Cunning Action</name>
@@ -23039,11 +23039,11 @@
                 <text>Source: Player's Handbook, p. 96</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <slots optional="YES">3, 2</slots>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature>
                 <name>Roguish Archetype</name>
@@ -23052,7 +23052,7 @@
                 <text>Source: Player's Handbook, p. 96</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Roguish Archetype: Arcane Trickster</name>
@@ -23061,7 +23061,7 @@
                 <text>Source: Player's Handbook, p. 97</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Spellcasting (Arcane Trickster)</name>
@@ -23085,7 +23085,7 @@
                 <text>Source: Player's Handbook, p. 98</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Mage Hand Legerdemain (Arcane Trickster)</name>
@@ -23103,7 +23103,7 @@
                 <text>Source: Player's Handbook, p. 98</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Roguish Archetype: Assassin</name>
@@ -23112,7 +23112,7 @@
                 <text>Source: Player's Handbook, p. 97</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Bonus Proficiencies (Assassin)</name>
@@ -23121,7 +23121,7 @@
                 <text>Source: Player's Handbook, p. 97</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Assassinate (Assassin)</name>
@@ -23130,7 +23130,7 @@
                 <text>Source: Player's Handbook, p. 97</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Roguish Archetype: Thief</name>
@@ -23139,7 +23139,7 @@
                 <text>Source: Player's Handbook, p. 97</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Fast Hands (Thief)</name>
@@ -23148,7 +23148,7 @@
                 <text>Source: Player's Handbook, p. 97</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Second-Story Work (Thief)</name>
@@ -23158,11 +23158,11 @@
                 <text>Source: Player's Handbook, p. 97</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="4" scoreImprovement="YES">
             <slots optional="YES">3, 3</slots>
         </autolevel>
-        
+
         <autolevel level="4" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement</name>
@@ -23172,11 +23172,11 @@
                 <text>Source: Player's Handbook, p. 96</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="5">
             <slots optional="YES">3, 3</slots>
         </autolevel>
-        
+
         <autolevel level="5">
             <feature>
                 <name>Uncanny Dodge</name>
@@ -23185,15 +23185,15 @@
                 <text>Source: Player's Handbook, p. 96</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <slots optional="YES">3, 3</slots>
         </autolevel>
-        
+
         <autolevel level="7">
             <slots optional="YES">3, 4, 2</slots>
         </autolevel>
-        
+
         <autolevel level="7">
             <feature>
                 <name>Evasion</name>
@@ -23202,11 +23202,11 @@
                 <text>Source: Player's Handbook, p. 96</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="8" scoreImprovement="YES">
             <slots optional="YES">3, 4, 2</slots>
         </autolevel>
-        
+
         <autolevel level="8" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement (2nd)</name>
@@ -23216,11 +23216,11 @@
                 <text>Source: Player's Handbook, p. 96</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="9">
             <slots optional="YES">3, 4, 2</slots>
         </autolevel>
-        
+
         <autolevel level="9">
             <feature optional="YES">
                 <name>Magical Ambush (Arcane Trickster)</name>
@@ -23229,7 +23229,7 @@
                 <text>Source: Player's Handbook, p. 98</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="9">
             <feature optional="YES">
                 <name>Infiltration Expertise (Assassin)</name>
@@ -23239,7 +23239,7 @@
                 <text>Source: Player's Handbook, p. 97</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="9">
             <feature optional="YES">
                 <name>Supreme Sneak (Thief)</name>
@@ -23248,11 +23248,11 @@
                 <text>Source: Player's Handbook, p. 97</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="10" scoreImprovement="YES">
             <slots optional="YES">4, 4, 3</slots>
         </autolevel>
-        
+
         <autolevel level="10" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement (3rd)</name>
@@ -23262,11 +23262,11 @@
                 <text>Source: Player's Handbook, p. 96</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="11">
             <slots optional="YES">4, 4, 3</slots>
         </autolevel>
-        
+
         <autolevel level="11">
             <feature>
                 <name>Reliable Talent</name>
@@ -23275,11 +23275,11 @@
                 <text>Source: Player's Handbook, p. 96</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="12" scoreImprovement="YES">
             <slots optional="YES">4, 4, 3</slots>
         </autolevel>
-        
+
         <autolevel level="12" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement (4th)</name>
@@ -23289,11 +23289,11 @@
                 <text>Source: Player's Handbook, p. 96</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="13">
             <slots optional="YES">4, 4, 3, 2</slots>
         </autolevel>
-        
+
         <autolevel level="13">
             <feature optional="YES">
                 <name>Versatile Trickster (Arcane Trickster)</name>
@@ -23302,7 +23302,7 @@
                 <text>Source: Player's Handbook, p. 98</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="13">
             <feature optional="YES">
                 <name>Imposter (Assassin)</name>
@@ -23312,7 +23312,7 @@
                 <text>Source: Player's Handbook, p. 97</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="13">
             <feature optional="YES">
                 <name>Use Magic Device (Thief)</name>
@@ -23321,11 +23321,11 @@
                 <text>Source: Player's Handbook, p. 97</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="14">
             <slots optional="YES">4, 4, 3, 2</slots>
         </autolevel>
-        
+
         <autolevel level="14">
             <feature>
                 <name>Blindsense</name>
@@ -23334,11 +23334,11 @@
                 <text>Source: Player's Handbook, p. 96</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="15">
             <slots optional="YES">4, 4, 3, 2</slots>
         </autolevel>
-        
+
         <autolevel level="15">
             <feature>
                 <name>Slippery Mind</name>
@@ -23348,11 +23348,11 @@
                 <proficiency>wisdom</proficiency>
             </feature>
         </autolevel>
-        
+
         <autolevel level="16" scoreImprovement="YES">
             <slots optional="YES">4, 4, 3, 3</slots>
         </autolevel>
-        
+
         <autolevel level="16" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement (5th)</name>
@@ -23362,11 +23362,11 @@
                 <text>Source: Player's Handbook, p. 96</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="17">
             <slots optional="YES">4, 4, 3, 3</slots>
         </autolevel>
-        
+
         <autolevel level="17">
             <feature optional="YES">
                 <name>Spell Thief (Arcane Trickster)</name>
@@ -23378,7 +23378,7 @@
             </feature>
             <counter><name>Spell Thief</name><value>1</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="17">
             <feature optional="YES">
                 <name>Death Strike (Assassin)</name>
@@ -23387,7 +23387,7 @@
                 <text>Source: Player's Handbook, p. 97</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="17">
             <feature optional="YES">
                 <name>Thief's Reflexes (Thief)</name>
@@ -23396,11 +23396,11 @@
                 <text>Source: Player's Handbook, p. 97</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="18">
             <slots optional="YES">4, 4, 3, 3</slots>
         </autolevel>
-        
+
         <autolevel level="18">
             <feature>
                 <name>Elusive</name>
@@ -23409,11 +23409,11 @@
                 <text>Source: Player's Handbook, p. 96</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="19" scoreImprovement="YES">
             <slots optional="YES">4, 4, 3, 3, 1</slots>
         </autolevel>
-        
+
         <autolevel level="19" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement (6th)</name>
@@ -23423,11 +23423,11 @@
                 <text>Source: Player's Handbook, p. 96</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="20">
             <slots optional="YES">4, 4, 3, 3, 1</slots>
         </autolevel>
-        
+
         <autolevel level="20">
             <feature>
                 <name>Stroke of Luck</name>
@@ -23449,7 +23449,7 @@
         <weapons>daggers, darts, slings, quarterstaffs, light crossbows</weapons>
         <tools>none</tools>
         <wealth>3d4x10</wealth>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Starting Sorcerer</name>
@@ -23472,7 +23472,7 @@
                 <text>Source: Player's Handbook, p. 99</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Multiclass Sorcerer</name>
@@ -23485,11 +23485,11 @@
                 <text>Source: Player's Handbook, p. 163</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <slots>4, 2</slots>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature>
                 <name>Spellcasting</name>
@@ -23515,7 +23515,7 @@
                 <text>Source: Player's Handbook, p. 101</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature>
                 <name>Sorcerous Origin</name>
@@ -23525,7 +23525,7 @@
                 <text>Source: Player's Handbook, p. 101</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Sorcerous Origin: Draconic Bloodline</name>
@@ -23534,7 +23534,7 @@
                 <text>Source: Player's Handbook, p. 102</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Black Dragon Ancestor (Black Draconic Bloodline)</name>
@@ -23544,7 +23544,7 @@
                 <text>Source: Player's Handbook, p. 102</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Blue Dragon Ancestor (Blue Draconic Bloodline)</name>
@@ -23554,7 +23554,7 @@
                 <text>Source: Player's Handbook, p. 102</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Brass Dragon Ancestor (Brass Draconic Bloodline)</name>
@@ -23564,7 +23564,7 @@
                 <text>Source: Player's Handbook, p. 102</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Bronze Dragon Ancestor (Bronze Draconic Bloodline)</name>
@@ -23574,7 +23574,7 @@
                 <text>Source: Player's Handbook, p. 102</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Copper Dragon Ancestor (Copper Draconic Bloodline)</name>
@@ -23584,7 +23584,7 @@
                 <text>Source: Player's Handbook, p. 102</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Gold Dragon Ancestor (Gold Draconic Bloodline)</name>
@@ -23594,7 +23594,7 @@
                 <text>Source: Player's Handbook, p. 102</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Green Dragon Ancestor (Green Draconic Bloodline)</name>
@@ -23604,7 +23604,7 @@
                 <text>Source: Player's Handbook, p. 102</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Red Dragon Ancestor (Red Draconic Bloodline)</name>
@@ -23614,7 +23614,7 @@
                 <text>Source: Player's Handbook, p. 102</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Silver Dragon Ancestor (Silver Draconic Bloodline)</name>
@@ -23624,7 +23624,7 @@
                 <text>Source: Player's Handbook, p. 102</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>White Dragon Ancestor (White Draconic Bloodline)</name>
@@ -23634,7 +23634,7 @@
                 <text>Source: Player's Handbook, p. 102</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Draconic Resilience (Draconic Bloodline)</name>
@@ -23646,7 +23646,7 @@
                 <modifier category="bonus">hp +1</modifier>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Sorcerous Origin: Wild Magic</name>
@@ -23655,7 +23655,7 @@
                 <text>Source: Player's Handbook, p. 103</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Wild Magic Surge (Wild Magic)</name>
@@ -23766,7 +23766,7 @@
                 <text>Source: Player's Handbook, p. 103</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Tides of Chaos (Wild Magic)</name>
@@ -23777,11 +23777,11 @@
             </feature>
             <counter><name>Tides of Chaos</name><value>1</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="2">
             <slots>4, 3</slots>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature>
                 <name>Font of Magic</name>
@@ -23804,15 +23804,15 @@
             </feature>
             <counter><name>Sorcery Points</name><value>2</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="3">
             <slots>4, 4, 2</slots>
         </autolevel>
-        
+
         <autolevel level="3">
             <counter><name>Sorcery Points</name><value>3</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature>
                 <name>Metamagic</name>
@@ -23822,7 +23822,7 @@
                 <text>Source: Player's Handbook, p. 101</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Metamagic: Careful Spell</name>
@@ -23831,7 +23831,7 @@
                 <text>Source: Player's Handbook, p. 102</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Metamagic: Distant Spell</name>
@@ -23841,7 +23841,7 @@
                 <text>Source: Player's Handbook, p. 102</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Metamagic: Empowered Spell</name>
@@ -23851,7 +23851,7 @@
                 <text>Source: Player's Handbook, p. 102</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Metamagic: Extended Spell</name>
@@ -23860,7 +23860,7 @@
                 <text>Source: Player's Handbook, p. 102</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Metamagic: Heightened Spell</name>
@@ -23869,7 +23869,7 @@
                 <text>Source: Player's Handbook, p. 102</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Metamagic: Quickened Spell</name>
@@ -23878,7 +23878,7 @@
                 <text>Source: Player's Handbook, p. 102</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Metamagic: Subtle Spell</name>
@@ -23887,7 +23887,7 @@
                 <text>Source: Player's Handbook, p. 102</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Metamagic: Twinned Spell</name>
@@ -23897,15 +23897,15 @@
                 <text>Source: Player's Handbook, p. 102</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="4" scoreImprovement="YES">
             <slots>5, 4, 3</slots>
         </autolevel>
-        
+
         <autolevel level="4">
             <counter><name>Sorcery Points</name><value>4</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="4" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement</name>
@@ -23915,23 +23915,23 @@
                 <text>Source: Player's Handbook, p. 102</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="5">
             <slots>5, 4, 3, 2</slots>
         </autolevel>
-        
+
         <autolevel level="5">
             <counter><name>Sorcery Points</name><value>5</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="6">
             <slots>5, 4, 3, 3</slots>
         </autolevel>
-        
+
         <autolevel level="6">
             <counter><name>Sorcery Points</name><value>6</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature optional="YES">
                 <name>Elemental Affinity (Black Draconic Bloodline)</name>
@@ -23940,7 +23940,7 @@
                 <text>Source: Player's Handbook, p. 102</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature optional="YES">
                 <name>Elemental Affinity (Blue Draconic Bloodline)</name>
@@ -23949,7 +23949,7 @@
                 <text>Source: Player's Handbook, p. 102</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature optional="YES">
                 <name>Elemental Affinity (Brass Draconic Bloodline)</name>
@@ -23958,7 +23958,7 @@
                 <text>Source: Player's Handbook, p. 102</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature optional="YES">
                 <name>Elemental Affinity (Bronze Draconic Bloodline)</name>
@@ -23967,7 +23967,7 @@
                 <text>Source: Player's Handbook, p. 102</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature optional="YES">
                 <name>Elemental Affinity (Copper Draconic Bloodline)</name>
@@ -23976,7 +23976,7 @@
                 <text>Source: Player's Handbook, p. 102</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature optional="YES">
                 <name>Elemental Affinity (Gold Draconic Bloodline)</name>
@@ -23985,7 +23985,7 @@
                 <text>Source: Player's Handbook, p. 102</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature optional="YES">
                 <name>Elemental Affinity (Green Draconic Bloodline)</name>
@@ -23994,7 +23994,7 @@
                 <text>Source: Player's Handbook, p. 102</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature optional="YES">
                 <name>Elemental Affinity (Red Draconic Bloodline)</name>
@@ -24003,7 +24003,7 @@
                 <text>Source: Player's Handbook, p. 102</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature optional="YES">
                 <name>Elemental Affinity (Silver Draconic Bloodline)</name>
@@ -24012,7 +24012,7 @@
                 <text>Source: Player's Handbook, p. 102</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature optional="YES">
                 <name>Elemental Affinity (White Draconic Bloodline)</name>
@@ -24021,7 +24021,7 @@
                 <text>Source: Player's Handbook, p. 102</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature optional="YES">
                 <name>Bend Luck (Wild Magic)</name>
@@ -24030,23 +24030,23 @@
                 <text>Source: Player's Handbook, p. 103</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="7">
             <slots>5, 4, 3, 3, 1</slots>
         </autolevel>
-        
+
         <autolevel level="7">
             <counter><name>Sorcery Points</name><value>7</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="8" scoreImprovement="YES">
             <slots>5, 4, 3, 3, 2</slots>
         </autolevel>
-        
+
         <autolevel level="8">
             <counter><name>Sorcery Points</name><value>8</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="8" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement (2nd)</name>
@@ -24056,23 +24056,23 @@
                 <text>Source: Player's Handbook, p. 102</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="9">
             <slots>5, 4, 3, 3, 3, 1</slots>
         </autolevel>
-        
+
         <autolevel level="9">
             <counter><name>Sorcery Points</name><value>9</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="10">
             <slots>6, 4, 3, 3, 3, 2</slots>
         </autolevel>
-        
+
         <autolevel level="10">
             <counter><name>Sorcery Points</name><value>10</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="10">
             <feature>
                 <name>Metamagic Option (3rd)</name>
@@ -24081,7 +24081,7 @@
                 <text>Source: Player's Handbook, p. 101</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="10">
             <feature optional="YES">
                 <name>Metamagic: Careful Spell</name>
@@ -24090,7 +24090,7 @@
                 <text>Source: Player's Handbook, p. 102</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="10">
             <feature optional="YES">
                 <name>Metamagic: Distant Spell</name>
@@ -24100,7 +24100,7 @@
                 <text>Source: Player's Handbook, p. 102</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="10">
             <feature optional="YES">
                 <name>Metamagic: Empowered Spell</name>
@@ -24110,7 +24110,7 @@
                 <text>Source: Player's Handbook, p. 102</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="10">
             <feature optional="YES">
                 <name>Metamagic: Extended Spell</name>
@@ -24119,7 +24119,7 @@
                 <text>Source: Player's Handbook, p. 102</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="10">
             <feature optional="YES">
                 <name>Metamagic: Heightened Spell</name>
@@ -24128,7 +24128,7 @@
                 <text>Source: Player's Handbook, p. 102</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="10">
             <feature optional="YES">
                 <name>Metamagic: Quickened Spell</name>
@@ -24137,7 +24137,7 @@
                 <text>Source: Player's Handbook, p. 102</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="10">
             <feature optional="YES">
                 <name>Metamagic: Subtle Spell</name>
@@ -24146,7 +24146,7 @@
                 <text>Source: Player's Handbook, p. 102</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="10">
             <feature optional="YES">
                 <name>Metamagic: Twinned Spell</name>
@@ -24156,23 +24156,23 @@
                 <text>Source: Player's Handbook, p. 102</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="11">
             <slots>6, 4, 3, 3, 3, 2, 1</slots>
         </autolevel>
-        
+
         <autolevel level="11">
             <counter><name>Sorcery Points</name><value>11</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="12" scoreImprovement="YES">
             <slots>6, 4, 3, 3, 3, 2, 1</slots>
         </autolevel>
-        
+
         <autolevel level="12">
             <counter><name>Sorcery Points</name><value>12</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="12" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement (3rd)</name>
@@ -24182,23 +24182,23 @@
                 <text>Source: Player's Handbook, p. 102</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="13">
             <slots>6, 4, 3, 3, 3, 2, 1, 1</slots>
         </autolevel>
-        
+
         <autolevel level="13">
             <counter><name>Sorcery Points</name><value>13</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="14">
             <slots>6, 4, 3, 3, 3, 2, 1, 1</slots>
         </autolevel>
-        
+
         <autolevel level="14">
             <counter><name>Sorcery Points</name><value>14</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="14">
             <feature optional="YES">
                 <name>Dragon Wings (Draconic Bloodline)</name>
@@ -24208,7 +24208,7 @@
                 <text>Source: Player's Handbook, p. 103</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="14">
             <feature optional="YES">
                 <name>Controlled Chaos (Wild Magic)</name>
@@ -24217,23 +24217,23 @@
                 <text>Source: Player's Handbook, p. 103</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="15">
             <slots>6, 4, 3, 3, 3, 2, 1, 1, 1</slots>
         </autolevel>
-        
+
         <autolevel level="15">
             <counter><name>Sorcery Points</name><value>15</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="16" scoreImprovement="YES">
             <slots>6, 4, 3, 3, 3, 2, 1, 1, 1</slots>
         </autolevel>
-        
+
         <autolevel level="16">
             <counter><name>Sorcery Points</name><value>16</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="16" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement (4th)</name>
@@ -24243,15 +24243,15 @@
                 <text>Source: Player's Handbook, p. 102</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="17">
             <slots>6, 4, 3, 3, 3, 2, 1, 1, 1, 1</slots>
         </autolevel>
-        
+
         <autolevel level="17">
             <counter><name>Sorcery Points</name><value>17</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="17">
             <feature>
                 <name>Metamagic Option (4th)</name>
@@ -24260,7 +24260,7 @@
                 <text>Source: Player's Handbook, p. 101</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="17">
             <feature optional="YES">
                 <name>Metamagic: Careful Spell</name>
@@ -24269,7 +24269,7 @@
                 <text>Source: Player's Handbook, p. 102</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="17">
             <feature optional="YES">
                 <name>Metamagic: Distant Spell</name>
@@ -24279,7 +24279,7 @@
                 <text>Source: Player's Handbook, p. 102</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="17">
             <feature optional="YES">
                 <name>Metamagic: Empowered Spell</name>
@@ -24289,7 +24289,7 @@
                 <text>Source: Player's Handbook, p. 102</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="17">
             <feature optional="YES">
                 <name>Metamagic: Extended Spell</name>
@@ -24298,7 +24298,7 @@
                 <text>Source: Player's Handbook, p. 102</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="17">
             <feature optional="YES">
                 <name>Metamagic: Heightened Spell</name>
@@ -24307,7 +24307,7 @@
                 <text>Source: Player's Handbook, p. 102</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="17">
             <feature optional="YES">
                 <name>Metamagic: Quickened Spell</name>
@@ -24316,7 +24316,7 @@
                 <text>Source: Player's Handbook, p. 102</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="17">
             <feature optional="YES">
                 <name>Metamagic: Subtle Spell</name>
@@ -24325,7 +24325,7 @@
                 <text>Source: Player's Handbook, p. 102</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="17">
             <feature optional="YES">
                 <name>Metamagic: Twinned Spell</name>
@@ -24335,15 +24335,15 @@
                 <text>Source: Player's Handbook, p. 102</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="18">
             <slots>6, 4, 3, 3, 3, 3, 1, 1, 1, 1</slots>
         </autolevel>
-        
+
         <autolevel level="18">
             <counter><name>Sorcery Points</name><value>18</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="18">
             <feature optional="YES">
                 <name>Draconic Presence (Draconic Bloodline)</name>
@@ -24362,7 +24362,7 @@
                 <text>Source: Player's Handbook, p. 103</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="18">
             <feature optional="YES">
                 <name>Spell Bombardment (Wild Magic)</name>
@@ -24371,15 +24371,15 @@
                 <text>Source: Player's Handbook, p. 103</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="19" scoreImprovement="YES">
             <slots>6, 4, 3, 3, 3, 3, 2, 1, 1, 1</slots>
         </autolevel>
-        
+
         <autolevel level="19">
             <counter><name>Sorcery Points</name><value>19</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="19" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement (5th)</name>
@@ -24389,15 +24389,15 @@
                 <text>Source: Player's Handbook, p. 102</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="20">
             <slots>6, 4, 3, 3, 3, 3, 2, 2, 1, 1</slots>
         </autolevel>
-        
+
         <autolevel level="20">
             <counter><name>Sorcery Points</name><value>20</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="20">
             <feature>
                 <name>Sorcerous Restoration</name>
@@ -24417,7 +24417,7 @@
         <weapons>simple weapons</weapons>
         <tools>none</tools>
         <wealth>4d4x10</wealth>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Starting Warlock</name>
@@ -24440,7 +24440,7 @@
                 <text>Source: Player's Handbook, p. 105</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Multiclass Warlock</name>
@@ -24453,11 +24453,11 @@
                 <text>Source: Player's Handbook, p. 163</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <slots>2, 1</slots>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature>
                 <name>Pact Magic</name>
@@ -24486,7 +24486,7 @@
                 <text>Source: Player's Handbook, p. 107</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature>
                 <name>Otherworldly Patron</name>
@@ -24495,7 +24495,7 @@
                 <text>Source: Player's Handbook, p. 107</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Otherworldly Patron: The Archfey</name>
@@ -24514,7 +24514,7 @@
                 <text>Source: Player's Handbook, p. 108</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Fey Presence (The Archfey)</name>
@@ -24535,7 +24535,7 @@
             </feature>
             <counter><name>Fey Presence</name><value>1</value><reset>S</reset></counter>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Otherworldly Patron: The Fiend</name>
@@ -24553,7 +24553,7 @@
                 <text>Source: Player's Handbook, p. 109</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Dark One's Blessing (The Fiend)</name>
@@ -24562,7 +24562,7 @@
                 <text>Source: Player's Handbook, p. 109</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Otherworldly Patron: The Great Old One</name>
@@ -24580,7 +24580,7 @@
                 <text>Source: Player's Handbook, p. 109</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Awakened Mind (The Great Old One)</name>
@@ -24589,11 +24589,11 @@
                 <text>Source: Player's Handbook, p. 110</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <slots>2, 2</slots>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature>
                 <name>Eldritch Invocations</name>
@@ -24605,11 +24605,11 @@
                 <text>Source: Player's Handbook, p. 107</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <slots>2, 0, 2</slots>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature>
                 <name>Pact Boon</name>
@@ -24618,7 +24618,7 @@
                 <text>Source: Player's Handbook, p. 107</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Pact Boon: Pact of the Blade</name>
@@ -24629,7 +24629,7 @@
                 <text>Source: Player's Handbook, p. 107</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Pact Boon: Pact of the Chain</name>
@@ -24640,7 +24640,7 @@
                 <text>Source: Player's Handbook, p. 107</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <feature optional="YES">
                 <name>Pact Boon: Pact of the Tome</name>
@@ -24650,11 +24650,11 @@
                 <text>Source: Player's Handbook, p. 108</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="4" scoreImprovement="YES">
             <slots>3, 0, 2</slots>
         </autolevel>
-        
+
         <autolevel level="4" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement</name>
@@ -24664,11 +24664,11 @@
                 <text>Source: Player's Handbook, p. 108</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="5">
             <slots>3, 0, 0, 2</slots>
         </autolevel>
-        
+
         <autolevel level="5">
             <feature>
                 <name>Additional Invocation</name>
@@ -24677,11 +24677,11 @@
                 <text>Source: Player's Handbook, p. 107</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <slots>3, 0, 0, 2</slots>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature optional="YES">
                 <name>Misty Escape (The Archfey)</name>
@@ -24697,7 +24697,7 @@
             </feature>
             <counter><name>Misty Escape</name><value>1</value><reset>S</reset></counter>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature optional="YES">
                 <name>Dark One's Own Luck (The Fiend)</name>
@@ -24708,7 +24708,7 @@
             </feature>
             <counter><name>Dark One's Luck</name><value>1</value><reset>S</reset></counter>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature optional="YES">
                 <name>Entropic Ward (The Great Old One)</name>
@@ -24719,11 +24719,11 @@
             </feature>
             <counter><name>Entropic Ward</name><value>1</value><reset>S</reset></counter>
         </autolevel>
-        
+
         <autolevel level="7">
             <slots>3, 0, 0, 0, 2</slots>
         </autolevel>
-        
+
         <autolevel level="7">
             <feature>
                 <name>Additional Invocation</name>
@@ -24732,11 +24732,11 @@
                 <text>Source: Player's Handbook, p. 107</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="8" scoreImprovement="YES">
             <slots>3, 0, 0, 0, 2</slots>
         </autolevel>
-        
+
         <autolevel level="8" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement (2nd)</name>
@@ -24746,11 +24746,11 @@
                 <text>Source: Player's Handbook, p. 108</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="9">
             <slots>3, 0, 0, 0, 0, 2</slots>
         </autolevel>
-        
+
         <autolevel level="9">
             <feature>
                 <name>Additional Invocation</name>
@@ -24759,11 +24759,11 @@
                 <text>Source: Player's Handbook, p. 107</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="10">
             <slots>4, 0, 0, 0, 0, 2</slots>
         </autolevel>
-        
+
         <autolevel level="10">
             <feature optional="YES">
                 <name>Beguiling Defenses (The Archfey)</name>
@@ -24777,7 +24777,7 @@
                 <text>Source: Player's Handbook, p. 109</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="10">
             <feature optional="YES">
                 <name>Fiendish Resilience (The Fiend)</name>
@@ -24786,7 +24786,7 @@
                 <text>Source: Player's Handbook, p. 109</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="10">
             <feature optional="YES">
                 <name>Thought Shield (The Great Old One)</name>
@@ -24795,11 +24795,11 @@
                 <text>Source: Player's Handbook, p. 110</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="11">
             <slots>4, 0, 0, 0, 0, 3</slots>
         </autolevel>
-        
+
         <autolevel level="11">
             <feature>
                 <name>Mystic Arcanum</name>
@@ -24810,11 +24810,11 @@
                 <text>Source: Player's Handbook, p. 108</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="12" scoreImprovement="YES">
             <slots>4, 0, 0, 0, 0, 3</slots>
         </autolevel>
-        
+
         <autolevel level="12" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement (3rd)</name>
@@ -24824,7 +24824,7 @@
                 <text>Source: Player's Handbook, p. 108</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="12" scoreImprovement="YES">
             <feature>
                 <name>Additional Invocation</name>
@@ -24833,15 +24833,15 @@
                 <text>Source: Player's Handbook, p. 107</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="13">
             <slots>4, 0, 0, 0, 0, 3</slots>
         </autolevel>
-        
+
         <autolevel level="14">
             <slots>4, 0, 0, 0, 0, 3</slots>
         </autolevel>
-        
+
         <autolevel level="14">
             <feature optional="YES">
                 <name>Dark Delirium (The Archfey)</name>
@@ -24863,7 +24863,7 @@
             </feature>
             <counter><name>Dark Delirium</name><value>1</value><reset>S</reset></counter>
         </autolevel>
-        
+
         <autolevel level="14">
             <feature optional="YES">
                 <name>Hurl Through Hell (The Fiend)</name>
@@ -24875,7 +24875,7 @@
             </feature>
             <counter><name>Hurl Through Hell</name><value>1</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="14">
             <feature optional="YES">
                 <name>Create Thrall (The Great Old One)</name>
@@ -24890,11 +24890,11 @@
                 <text>Source: Player's Handbook, p. 110</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="15">
             <slots>4, 0, 0, 0, 0, 3</slots>
         </autolevel>
-        
+
         <autolevel level="15">
             <feature>
                 <name>Additional Invocation</name>
@@ -24903,11 +24903,11 @@
                 <text>Source: Player's Handbook, p. 107</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="16" scoreImprovement="YES">
             <slots>4, 0, 0, 0, 0, 3</slots>
         </autolevel>
-        
+
         <autolevel level="16" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement (4th)</name>
@@ -24917,15 +24917,15 @@
                 <text>Source: Player's Handbook, p. 108</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="17">
             <slots>4, 0, 0, 0, 0, 4</slots>
         </autolevel>
-        
+
         <autolevel level="18">
             <slots>4, 0, 0, 0, 0, 4</slots>
         </autolevel>
-        
+
         <autolevel level="18">
             <feature>
                 <name>Additional Invocation</name>
@@ -24934,11 +24934,11 @@
                 <text>Source: Player's Handbook, p. 107</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="19" scoreImprovement="YES">
             <slots>4, 0, 0, 0, 0, 4</slots>
         </autolevel>
-        
+
         <autolevel level="19" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement (5th)</name>
@@ -24948,11 +24948,11 @@
                 <text>Source: Player's Handbook, p. 108</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="20">
             <slots>4, 0, 0, 0, 0, 4</slots>
         </autolevel>
-        
+
         <autolevel level="20">
             <feature>
                 <name>Eldritch Master</name>
@@ -24973,7 +24973,7 @@
         <weapons>daggers, darts, slings, quarterstaffs, light crossbows</weapons>
         <tools>none</tools>
         <wealth>4d4x10</wealth>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Starting Wizard</name>
@@ -24996,7 +24996,7 @@
                 <text>Source: Player's Handbook, p. 112</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature optional="YES">
                 <name>Multiclass Wizard</name>
@@ -25009,11 +25009,11 @@
                 <text>Source: Player's Handbook, p. 163</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <slots>3, 2</slots>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature>
                 <name>Spellcasting</name>
@@ -25048,7 +25048,7 @@
                 <text>Source: Player's Handbook, p. 114</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature>
                 <name>Spellbook</name>
@@ -25069,7 +25069,7 @@
                 <text>Source: Player's Handbook, p. 114</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="1">
             <feature>
                 <name>Arcane Recovery</name>
@@ -25080,11 +25080,11 @@
             </feature>
             <counter><name>Arcane Recovery</name><value>1</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="2">
             <slots>3, 3</slots>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature>
                 <name>Arcane Tradition</name>
@@ -25094,7 +25094,7 @@
                 <text>Source: Player's Handbook, p. 115</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Arcane Tradition: School of Abjuration</name>
@@ -25104,7 +25104,7 @@
                 <text>Source: Player's Handbook, p. 115</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Abjuration Savant (School of Abjuration)</name>
@@ -25113,7 +25113,7 @@
                 <text>Source: Player's Handbook, p. 115</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Arcane Ward (School of Abjuration)</name>
@@ -25125,7 +25125,7 @@
             </feature>
             <counter><name>Arcane Ward</name><value>1</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Arcane Tradition: School of Conjuration</name>
@@ -25135,7 +25135,7 @@
                 <text>Source: Player's Handbook, p. 116</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Conjuration Savant (School of Conjuration)</name>
@@ -25144,7 +25144,7 @@
                 <text>Source: Player's Handbook, p. 116</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Minor Conjuration (School of Conjuration)</name>
@@ -25154,7 +25154,7 @@
                 <text>Source: Player's Handbook, p. 116</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Arcane Tradition: School of Divination</name>
@@ -25164,7 +25164,7 @@
                 <text>Source: Player's Handbook, p. 116</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Divination Savant (School of Divination)</name>
@@ -25173,7 +25173,7 @@
                 <text>Source: Player's Handbook, p. 116</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Portent (School of Divination)</name>
@@ -25184,7 +25184,7 @@
             </feature>
             <counter><name>Portents</name><value>2</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Arcane Tradition: School of Enchantment</name>
@@ -25194,7 +25194,7 @@
                 <text>Source: Player's Handbook, p. 117</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Enchantment Savant (School of Enchantment)</name>
@@ -25203,7 +25203,7 @@
                 <text>Source: Player's Handbook, p. 117</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Hypnotic Gaze (School of Enchantment)</name>
@@ -25223,7 +25223,7 @@
             </feature>
             <counter><name>Hypnotic Gaze</name><value>1</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Arcane Tradition: School of Evocation</name>
@@ -25233,7 +25233,7 @@
                 <text>Source: Player's Handbook, p. 117</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Evocation Savant (School of Evocation)</name>
@@ -25242,7 +25242,7 @@
                 <text>Source: Player's Handbook, p. 117</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Sculpt Spells (School of Evocation)</name>
@@ -25251,7 +25251,7 @@
                 <text>Source: Player's Handbook, p. 117</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Arcane Tradition: School of Illusion</name>
@@ -25261,7 +25261,7 @@
                 <text>Source: Player's Handbook, p. 118</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Illusion Savant (School of Illusion)</name>
@@ -25270,7 +25270,7 @@
                 <text>Source: Player's Handbook, p. 118</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Improved Minor Illusion (School of Illusion)</name>
@@ -25280,7 +25280,7 @@
                 <text>Source: Player's Handbook, p. 118</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Arcane Tradition: School of Necromancy</name>
@@ -25290,7 +25290,7 @@
                 <text>Source: Player's Handbook, p. 118</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Necromancy Savant (School of Necromancy)</name>
@@ -25299,7 +25299,7 @@
                 <text>Source: Player's Handbook, p. 118</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Grim Harvest (School of Necromancy)</name>
@@ -25308,7 +25308,7 @@
                 <text>Source: Player's Handbook, p. 118</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Arcane Tradition: School of Transmutation</name>
@@ -25318,7 +25318,7 @@
                 <text>Source: Player's Handbook, p. 119</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Transmutation Savant (School of Transmutation)</name>
@@ -25327,7 +25327,7 @@
                 <text>Source: Player's Handbook, p. 119</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Minor Alchemy (School of Transmutation)</name>
@@ -25336,7 +25336,7 @@
                 <text>Source: Player's Handbook, p. 119</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Channel Arcana: Touch of Death (Death Domain) (Theurgy)</name>
@@ -25346,7 +25346,7 @@
                 <text>Source: Dungeon Master's Guide, p. 97</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Channel Arcana: Knowledge of the Ages (Knowledge Domain) (Theurgy)</name>
@@ -25355,7 +25355,7 @@
                 <text>Source: Player's Handbook, p. 59</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Channel Arcana: Preserve Life (Life Domain) (Theurgy)</name>
@@ -25365,7 +25365,7 @@
                 <text>Source: Player's Handbook, p. 60</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Channel Arcana: Radiance of the Dawn (Light Domain) (Theurgy)</name>
@@ -25375,7 +25375,7 @@
                 <text>Source: Player's Handbook, p. 61</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Channel Arcana: Charm Animals and Plants (Nature Domain) (Theurgy)</name>
@@ -25385,7 +25385,7 @@
                 <text>Source: Player's Handbook, p. 62</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Channel Arcana: Invoke Duplicity (Trickery Domain) (Theurgy)</name>
@@ -25396,7 +25396,7 @@
                 <text>Source: Player's Handbook, p. 63</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Channel Arcana: Destructive Wrath (Tempest Domain) (Theurgy)</name>
@@ -25406,7 +25406,7 @@
                 <text>Source: Player's Handbook, p. 62</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="2">
             <feature optional="YES">
                 <name>Channel Arcana: Guided Strike (War Domain) (Theurgy)</name>
@@ -25415,15 +25415,15 @@
                 <text>Source: Player's Handbook, p. 63</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="3">
             <slots>3, 4, 2</slots>
         </autolevel>
-        
+
         <autolevel level="4" scoreImprovement="YES">
             <slots>4, 4, 3</slots>
         </autolevel>
-        
+
         <autolevel level="4" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement</name>
@@ -25433,15 +25433,15 @@
                 <text>Source: Player's Handbook, p. 115</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="5">
-            <slots>3, 4, 3, 2</slots>
+            <slots>4, 4, 3, 2</slots>
         </autolevel>
-        
+
         <autolevel level="6">
-            <slots>3, 4, 3, 3</slots>
+            <slots>4, 4, 3, 3</slots>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature optional="YES">
                 <name>Projected Ward (School of Abjuration)</name>
@@ -25450,7 +25450,7 @@
                 <text>Source: Player's Handbook, p. 115</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature optional="YES">
                 <name>Benign Transposition (School of Conjuration)</name>
@@ -25461,7 +25461,7 @@
             </feature>
             <counter><name>Benign Transposition</name><value>1</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature optional="YES">
                 <name>Expert Divination (School of Divination)</name>
@@ -25470,7 +25470,7 @@
                 <text>Source: Player's Handbook, p. 116</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature optional="YES">
                 <name>Instinctive Charm (School of Enchantment)</name>
@@ -25480,7 +25480,7 @@
                 <text>Source: Player's Handbook, p. 117</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature optional="YES">
                 <name>Potent Cantrip (School of Evocation)</name>
@@ -25489,7 +25489,7 @@
                 <text>Source: Player's Handbook, p. 117</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature optional="YES">
                 <name>Malleable Illusions (School of Illusion)</name>
@@ -25498,7 +25498,7 @@
                 <text>Source: Player's Handbook, p. 118</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature optional="YES">
                 <name>Undead Thralls (School of Necromancy)</name>
@@ -25512,7 +25512,7 @@
                 <text>Source: Player's Handbook, p. 119</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature optional="YES">
                 <name>Transmuter's Stone (School of Transmutation)</name>
@@ -25532,7 +25532,7 @@
                 <text>Source: Player's Handbook, p. 119</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature optional="YES">
                 <name>Reaper (Death Domain) (Theurgy)</name>
@@ -25541,7 +25541,7 @@
                 <text>Source: Dungeon Master's Guide, p. 96</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature optional="YES">
                 <name>Blessings of Knowledge (Knowledge Domain) (Theurgy)</name>
@@ -25551,7 +25551,7 @@
                 <text>Source: Player's Handbook, p. 59</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature optional="YES">
                 <name>Disciple of Life (Life Domain) (Theurgy)</name>
@@ -25560,7 +25560,7 @@
                 <text>Source: Player's Handbook, p. 60</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature optional="YES">
                 <name>Bonus Cantrip (Light Domain) (Theurgy)</name>
@@ -25569,7 +25569,7 @@
                 <text>Source: Player's Handbook, p. 61</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature optional="YES">
                 <name>Warding Flare (Light Domain) (Theurgy)</name>
@@ -25579,7 +25579,7 @@
                 <text>Source: Player's Handbook, p. 61</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature optional="YES">
                 <name>Acolyte of Nature (Nature Domain) (Theurgy)</name>
@@ -25588,7 +25588,7 @@
                 <text>Source: Player's Handbook, p. 62</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature optional="YES">
                 <name>Wrath of the Storm (Tempest Domain) (Theurgy)</name>
@@ -25598,7 +25598,7 @@
                 <text>Source: Player's Handbook, p. 62</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature optional="YES">
                 <name>Blessing of the Trickster (Trickery Domain) (Theurgy)</name>
@@ -25607,7 +25607,7 @@
                 <text>Source: Player's Handbook, p. 63</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="6">
             <feature optional="YES">
                 <name>War Priest (War Domain) (Theurgy)</name>
@@ -25616,15 +25616,15 @@
                 <text>Source: Player's Handbook, p. 63</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="7">
-            <slots>3, 4, 3, 3, 1</slots>
+            <slots>4, 4, 3, 3, 1</slots>
         </autolevel>
-        
+
         <autolevel level="8" scoreImprovement="YES">
-            <slots>3, 4, 3, 3, 2</slots>
+            <slots>4, 4, 3, 3, 2</slots>
         </autolevel>
-        
+
         <autolevel level="8" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement (2nd)</name>
@@ -25634,15 +25634,15 @@
                 <text>Source: Player's Handbook, p. 115</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="9">
-            <slots>3, 4, 3, 3, 3, 1</slots>
+            <slots>4, 4, 3, 3, 3, 1</slots>
         </autolevel>
-        
+
         <autolevel level="10">
             <slots>5, 4, 3, 3, 3, 2</slots>
         </autolevel>
-        
+
         <autolevel level="10">
             <feature optional="YES">
                 <name>Improved Abjuration (School of Abjuration)</name>
@@ -25651,7 +25651,7 @@
                 <text>Source: Player's Handbook, p. 115</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="10">
             <feature optional="YES">
                 <name>Focused Conjuration (School of Conjuration)</name>
@@ -25660,7 +25660,7 @@
                 <text>Source: Player's Handbook, p. 116</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="10">
             <feature optional="YES">
                 <name>The Third Eye (School of Divination)</name>
@@ -25682,7 +25682,7 @@
             </feature>
             <counter><name>Third Eye</name><value>1</value><reset>S</reset></counter>
         </autolevel>
-        
+
         <autolevel level="10">
             <feature optional="YES">
                 <name>Split Enchantment (School of Enchantment)</name>
@@ -25691,7 +25691,7 @@
                 <text>Source: Player's Handbook, p. 117</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="10">
             <feature optional="YES">
                 <name>Empowered Evocation (School of Evocation)</name>
@@ -25700,7 +25700,7 @@
                 <text>Source: Player's Handbook, p. 117</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="10">
             <feature optional="YES">
                 <name>Illusory Step (School of Illusion)</name>
@@ -25711,7 +25711,7 @@
             </feature>
             <counter><name>Illusory Step</name><value>1</value><reset>S</reset></counter>
         </autolevel>
-        
+
         <autolevel level="10">
             <feature optional="YES">
                 <name>Inured to Undeath (School of Necromancy)</name>
@@ -25720,7 +25720,7 @@
                 <text>Source: Player's Handbook, p. 119</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="10">
             <feature optional="YES">
                 <name>Shapechanger (School of Transmutation)</name>
@@ -25731,7 +25731,7 @@
             </feature>
             <counter><name>Shapechanger</name><value>1</value><reset>S</reset></counter>
         </autolevel>
-        
+
         <autolevel level="10">
             <feature optional="YES">
                 <name>Inescapable Destruction (Death Domain) (Theurgy)</name>
@@ -25740,7 +25740,7 @@
                 <text>Source: Dungeon Master's Guide, p. 97</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="10">
             <feature optional="YES">
                 <name>Channel Divinity: Read Thoughts (Knowledge Domain) (Theurgy)</name>
@@ -25752,7 +25752,7 @@
                 <text>Source: Player's Handbook, p. 59</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="10">
             <feature optional="YES">
                 <name>Blessed Healer (Life Domain) (Theurgy)</name>
@@ -25761,7 +25761,7 @@
                 <text>Source: Player's Handbook, p. 60</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="10">
             <feature optional="YES">
                 <name>Improved Flare (Light Domain) (Theurgy)</name>
@@ -25770,7 +25770,7 @@
                 <text>Source: Player's Handbook, p. 61</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="10">
             <feature optional="YES">
                 <name>Dampen Elements (Nature Domain) (Theurgy)</name>
@@ -25779,7 +25779,7 @@
                 <text>Source: Player's Handbook, p. 62</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="10">
             <feature optional="YES">
                 <name>Thunderbolt Strike (Tempest Domain) (Theurgy)</name>
@@ -25788,7 +25788,7 @@
                 <text>Source: Player's Handbook, p. 62</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="10">
             <feature optional="YES">
                 <name>Channel Divinity: Cloak of Shadows (Trickery Domain) (Theurgy)</name>
@@ -25798,7 +25798,7 @@
                 <text>Source: Player's Handbook, p. 63</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="10">
             <feature optional="YES">
                 <name>Channel Divinity: War God's Blessing (War Domain) (Theurgy)</name>
@@ -25807,15 +25807,15 @@
                 <text>Source: Player's Handbook, p. 63</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="11">
             <slots>5, 4, 3, 3, 3, 2, 1</slots>
         </autolevel>
-        
+
         <autolevel level="12" scoreImprovement="YES">
             <slots>5, 4, 3, 3, 3, 2, 1</slots>
         </autolevel>
-        
+
         <autolevel level="12" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement (3rd)</name>
@@ -25825,15 +25825,15 @@
                 <text>Source: Player's Handbook, p. 115</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="13">
             <slots>5, 4, 3, 3, 3, 2, 1, 1</slots>
         </autolevel>
-        
+
         <autolevel level="14">
             <slots>5, 4, 3, 3, 3, 2, 1, 1</slots>
         </autolevel>
-        
+
         <autolevel level="14">
             <feature optional="YES">
                 <name>Spell Resistance (School of Abjuration)</name>
@@ -25843,7 +25843,7 @@
                 <text>Source: Player's Handbook, p. 116</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="14">
             <feature optional="YES">
                 <name>Durable Summons (School of Conjuration)</name>
@@ -25852,7 +25852,7 @@
                 <text>Source: Player's Handbook, p. 116</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="14">
             <feature optional="YES">
                 <name>Greater Portent (School of Divination)</name>
@@ -25862,7 +25862,7 @@
             </feature>
             <counter><name>Portents</name><value>3</value><reset>L</reset></counter>
         </autolevel>
-        
+
         <autolevel level="14">
             <feature optional="YES">
                 <name>Alter Memories (School of Enchantment)</name>
@@ -25872,7 +25872,7 @@
                 <text>Source: Player's Handbook, p. 117</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="14">
             <feature optional="YES">
                 <name>Overchannel (School of Evocation)</name>
@@ -25882,7 +25882,7 @@
                 <text>Source: Player's Handbook, p. 118</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="14">
             <feature optional="YES">
                 <name>Illusory Reality (School of Illusion)</name>
@@ -25892,7 +25892,7 @@
                 <text>Source: Player's Handbook, p. 118</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="14">
             <feature optional="YES">
                 <name>Command Undead (School of Necromancy)</name>
@@ -25902,7 +25902,7 @@
                 <text>Source: Player's Handbook, p. 119</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="14">
             <feature optional="YES">
                 <name>Master Transmuter (School of Transmutation)</name>
@@ -25923,7 +25923,7 @@
                 <text>Source: Player's Handbook, p. 119</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="14">
             <feature optional="YES">
                 <name>Improved Reaper (Death Domain) (Theurgy)</name>
@@ -25932,7 +25932,7 @@
                 <text>Source: Dungeon Master's Guide, p. 97</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="14">
             <feature optional="YES">
                 <name>Visions of the Past (Knowledge Domain) (Theurgy)</name>
@@ -25946,7 +25946,7 @@
                 <text>Source: Player's Handbook, p. 60</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="14">
             <feature optional="YES">
                 <name>Supreme Healing (Life Domain) (Theurgy)</name>
@@ -25955,7 +25955,7 @@
                 <text>Source: Player's Handbook, p. 60</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="14">
             <feature optional="YES">
                 <name>Corona of Light (Light Domain) (Theurgy)</name>
@@ -25964,7 +25964,7 @@
                 <text>Source: Player's Handbook, p. 61</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="14">
             <feature optional="YES">
                 <name>Master of Nature (Nature Domain) (Theurgy)</name>
@@ -25973,7 +25973,7 @@
                 <text>Source: Player's Handbook, p. 62</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="14">
             <feature optional="YES">
                 <name>Stormborn (Tempest Domain) (Theurgy)</name>
@@ -25982,7 +25982,7 @@
                 <text>Source: Player's Handbook, p. 62</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="14">
             <feature optional="YES">
                 <name>Improved Duplicity (Trickery Domain) (Theurgy)</name>
@@ -25991,7 +25991,7 @@
                 <text>Source: Player's Handbook, p. 63</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="14">
             <feature optional="YES">
                 <name>Avatar of Battle (War Domain) (Theurgy)</name>
@@ -26000,15 +26000,15 @@
                 <text>Source: Player's Handbook, p. 63</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="15">
             <slots>5, 4, 3, 3, 3, 2, 1, 1, 1</slots>
         </autolevel>
-        
+
         <autolevel level="16" scoreImprovement="YES">
             <slots>5, 4, 3, 3, 3, 2, 1, 1, 1</slots>
         </autolevel>
-        
+
         <autolevel level="16" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement (4th)</name>
@@ -26018,15 +26018,15 @@
                 <text>Source: Player's Handbook, p. 115</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="17">
             <slots>5, 4, 3, 3, 3, 2, 1, 1, 1, 1</slots>
         </autolevel>
-        
+
         <autolevel level="18">
             <slots>5, 4, 3, 3, 3, 3, 1, 1, 1, 1</slots>
         </autolevel>
-        
+
         <autolevel level="18">
             <feature optional="YES">
                 <name>Spell Mastery</name>
@@ -26036,11 +26036,11 @@
                 <text>Source: Player's Handbook, p. 115</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="19" scoreImprovement="YES">
             <slots>5, 4, 3, 3, 3, 3, 2, 1, 1, 1</slots>
         </autolevel>
-        
+
         <autolevel level="19" scoreImprovement="YES">
             <feature>
                 <name>Ability Score Improvement (5th)</name>
@@ -26050,11 +26050,11 @@
                 <text>Source: Player's Handbook, p. 115</text>
             </feature>
         </autolevel>
-        
+
         <autolevel level="20">
             <slots>5, 4, 3, 3, 3, 3, 2, 2, 1, 1</slots>
         </autolevel>
-        
+
         <autolevel level="20">
             <feature optional="YES">
                 <name>Signature Spell</name>
@@ -43818,7 +43818,7 @@
         </action>
         <action>
             <name>Acid Breath (Recharge 5-6)</name>
-            <text>The dragon exhales acid in a 15-foot line that is 5 feet wide. Each creature in that line must make a DC 11 Dexterity saving throw, taking 22 (Sd8) acid damage on a failed save, or half as much damage on a successful one.</text>
+            <text>The dragon exhales acid in a 15-foot line that is 5 feet wide. Each creature in that line must make a DC 11 Dexterity saving throw, taking 22 (5d8) acid damage on a failed save, or half as much damage on a successful one.</text>
             <attack>Acid Breath||5d8</attack>
         </action>
         <spells/>
