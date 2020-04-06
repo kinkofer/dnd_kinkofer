@@ -306,6 +306,10 @@
                             <label for="acquisitionsIncorporated">Acquisitions Incorporated</label>
                         </div>
                         <div class="checkbox">
+                            <input type="checkbox" id="explorersGuideToWildemount" name="sources[]" value="ExplorersGuideToWildemount" onChange="requireXgtE(this)" class="rulebookSupplements" />
+                            <label for="explorersGuideToWildemount">Explorer's Guide to Wildemount</label>
+                        </div>
+                        <div class="checkbox">
                             <input type="checkbox" id="mordenkainensFiendishFolio" name="sources[]" value="MordenkainensFiendishFolio" class="rulebookSupplements" />
                             <label for="mordenkainensFiendishFolio">Mordenkainen's Fiendish Folio</label>
                         </div>
@@ -392,6 +396,10 @@
                             <label for="2017-03-03_TheMysticClass">2017-03-03 The Mystic Class</label>&#x2A&#xA7
                         </div>
                         <div class="checkbox">
+                            <input type="checkbox" id="2018-05-14_CentaursAndMinotaurs" name="sources[]" value="UnearthedArcana/2018-05-14_CentaursAndMinotaurs" class="unearthedArcana" />
+                            <label for="2018-05-14_CentaursAndMinotaurs">2018-05-14 Centaurs and Minotaurs</label>
+                        </div>
+                        <div class="checkbox">
                             <input type="checkbox" id="2018-12-17_Sidekicks" name="sources[]" value="UnearthedArcana/2018-12-17_Sidekicks" onChange="requirePHB(this)" class="unearthedArcana unreleased requiresPHB" />
                             <label for="2018-12-17_Sidekicks">2018-12-17 Sidekicks</label>&#x2A&#xA7
                         </div>
@@ -435,6 +443,12 @@
                             <input type="checkbox" id="2020-02-24_2020SubclassesPart3" name="sources[]" value="UnearthedArcana/2020-02-24_2020SubclassesPart3" onChange="requireERftLW(this)" class="unearthedArcana unreleased requiresERftLW" />
                             <label for="2020-02-24_2020SubclassesPart3">2020-02-24 2020 Subclasses Part 3</label>&#x2021&#xA7
                         </div>
+                        <div class="checkbox">
+                            <input type="checkbox" id="2020-03-26_SpellsAndMagicTattoos" name="sources[]" value="UnearthedArcana/2020-03-26_SpellsAndMagicTattoos" class="unearthedArcana unreleased" />
+                            <label for="2020-03-26_SpellsAndMagicTattoos">2020-03-26 Spells and Magic Tattoos</label>&#xA7
+                        </div>
+                        
+
 
                         <hr />
 
