@@ -481,7 +481,7 @@
 
                         <hr />
 
-                        <input type="submit" value="Create">
+                        <input type="submit" value="Create" />
 
 
                         <p id="footnote">

@@ -14,3 +14,7 @@
 Route::get('/', "CompendiumController@index");
 Route::get('/compendium', "CompendiumController@index");
 Route::post('/compendium', "CompendiumController@compendium");
+
+
+Route::get('/merge', "MergeController@index");
+Route::post('/merge', "MergeController@merge");
