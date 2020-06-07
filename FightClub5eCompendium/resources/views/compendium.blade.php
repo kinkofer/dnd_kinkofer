@@ -218,7 +218,7 @@
                             <a href="/compendiums/collections/CoreRulebooksAndSupplements.xml" download>Core Rulebooks and Supplements</a>:
                             <p>
                                 <b>Core Rulebooks</b> plus Rulebook Supplements<br />
-                                (XGtE, MToF, VGtM, SCAG, GGtR, WGtE, ERftLW, AI, MFF, Tortle Package, and One Grung Above)
+                                (AI, ERftLW, EGtW, GGtR, MFF, MToF, MOoT, OGA, SCAG, TTP, VGtM, WGtE, XGtE)
                             </p>
                         </li>
                         <li>
@@ -273,24 +273,48 @@
                         </div>
 
                         <div class="checkbox">
-                            <input type="checkbox" id="xanatharsGuideToEverything" name="sources[]" value="XanatharsGuideToEverything" onChange="requirePHB(this); uncheckXgtERequiredSources();" class="requiresPHB rulebookSupplements" />
-                            <label for="xanatharsGuideToEverything">Xanathar's Guide To Everything</label>&#x2A
+                            <input type="checkbox" id="acquisitionsIncorporated" name="sources[]" value="AcquisitionsIncorporated" class="rulebookSupplements" />
+                            <label for="acquisitionsIncorporated">Acquisitions Incorporated</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" id="eberronRisingFromTheLastWar" name="sources[]" value="EberronRisingFromTheLastWar" onChange="requireXgtE(this); uncheckERftLWRequiredSources();" class="requiresXgtE rulebookSupplements" />
+                            <label for="eberronRisingFromTheLastWar">Eberron: Rising from the Last War</label>&#x2020
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" id="explorersGuideToWildemount" name="sources[]" value="ExplorersGuideToWildemount" onChange="requireXgtE(this)" class="rulebookSupplements" />
+                            <label for="explorersGuideToWildemount">Explorer's Guide to Wildemount</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" id="guildmastersGuideToRavnica" name="sources[]" value="GuildmastersGuideToRavnica" onChange="requirePHB(this)" class="requiresPHB rulebookSupplements" />
+                            <label for="guildmastersGuideToRavnica">Guildmaster's Guide to Ravnica</label>&#x2A
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" id="mordenkainensFiendishFolio" name="sources[]" value="MordenkainensFiendishFolio" class="rulebookSupplements" />
+                            <label for="mordenkainensFiendishFolio">Mordenkainen's Fiendish Folio</label>
                         </div>
                         <div class="checkbox">
                             <input type="checkbox" id="mordenkainensTomeOfFoes" name="sources[]" value="MordenkainensTomeOfFoes" class="rulebookSupplements" />
                             <label for="mordenkainensTomeOfFoes">Mordenkainen's Tome of Foes</label>
                         </div>
                         <div class="checkbox">
-                            <input type="checkbox" id="volosGuideToMonsters" name="sources[]" value="VolosGuideToMonsters" class="rulebookSupplements" />
-                            <label for="volosGuideToMonsters">Volo's Guide to Monsters</label>
+                            <input type="checkbox" id="mythicOdysseysOfTheros" name="sources[]" value="Mythic Odysseys of Theros" onChange="requirePHB(this)" class="rulebookSupplements" />
+                            <label for="mythicOdysseysOfTheros">Mythic Odysseys of Theros</label>&#x2A
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" id="oneGrungAbove" name="sources[]" value="One Grung Above" class="rulebookSupplements" />
+                            <label for="oneGrungAbove">One Grung Above</label>
                         </div>
                         <div class="checkbox">
                             <input type="checkbox" id="swordCoastAdventurersGuide" name="sources[]" value="SwordCoastAdventurersGuide" onChange="requireXgtE(this)" class="requiresXgtE rulebookSupplements" />
                             <label for="swordCoastAdventurersGuide">Sword Coast Adventurer's Guide</label>&#x2020
                         </div>
                         <div class="checkbox">
-                            <input type="checkbox" id="guildmastersGuideToRavnica" name="sources[]" value="GuildmastersGuideToRavnica" onChange="requirePHB(this)" class="requiresPHB rulebookSupplements" />
-                            <label for="guildmastersGuideToRavnica">Guildmaster's Guide to Ravnica</label>&#x2A
+                            <input type="checkbox" id="theTortlePackage" name="sources[]" value="The Tortle Package" class="rulebookSupplements" />
+                            <label for="theTortlePackage">The Tortle Package</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" id="volosGuideToMonsters" name="sources[]" value="VolosGuideToMonsters" class="rulebookSupplements" />
+                            <label for="volosGuideToMonsters">Volo's Guide to Monsters</label>
                         </div>
                         <div class="checkbox">
                             <input type="checkbox" id="wayfindersGuideToEberron" name="sources[]" value="WayfindersGuideToEberron" class="rulebookSupplements" />
@@ -298,28 +322,8 @@
                             <sup>(Item's Only)</sup>
                         </div>
                         <div class="checkbox">
-                            <input type="checkbox" id="eberronRisingFromTheLastWar" name="sources[]" value="EberronRisingFromTheLastWar" onChange="requireXgtE(this); uncheckERftLWRequiredSources();" class="requiresXgtE rulebookSupplements" />
-                            <label for="eberronRisingFromTheLastWar">Eberron: Rising from the Last War</label>&#x2020
-                        </div>
-                        <div class="checkbox">
-                            <input type="checkbox" id="acquisitionsIncorporated" name="sources[]" value="AcquisitionsIncorporated" class="rulebookSupplements" />
-                            <label for="acquisitionsIncorporated">Acquisitions Incorporated</label>
-                        </div>
-                        <div class="checkbox">
-                            <input type="checkbox" id="explorersGuideToWildemount" name="sources[]" value="ExplorersGuideToWildemount" onChange="requireXgtE(this)" class="rulebookSupplements" />
-                            <label for="explorersGuideToWildemount">Explorer's Guide to Wildemount</label>
-                        </div>
-                        <div class="checkbox">
-                            <input type="checkbox" id="mordenkainensFiendishFolio" name="sources[]" value="MordenkainensFiendishFolio" class="rulebookSupplements" />
-                            <label for="mordenkainensFiendishFolio">Mordenkainen's Fiendish Folio</label>
-                        </div>
-                        <div class="checkbox">
-                            <input type="checkbox" id="theTortlePackage" name="sources[]" value="The Tortle Package" class="rulebookSupplements" />
-                            <label for="theTortlePackage">The Tortle Package</label>
-                        </div>
-                        <div class="checkbox">
-                            <input type="checkbox" id="oneGrungAbove" name="sources[]" value="One Grung Above" class="rulebookSupplements" />
-                            <label for="oneGrungAbove">One Grung Above</label>
+                            <input type="checkbox" id="xanatharsGuideToEverything" name="sources[]" value="XanatharsGuideToEverything" onChange="requirePHB(this); uncheckXgtERequiredSources();" class="requiresPHB rulebookSupplements" />
+                            <label for="xanatharsGuideToEverything">Xanathar's Guide To Everything</label>&#x2A
                         </div>
 
                         <hr />
