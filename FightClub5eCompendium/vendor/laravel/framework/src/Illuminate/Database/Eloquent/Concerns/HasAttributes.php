@@ -351,7 +351,7 @@ trait HasAttributes
         }
 
         // If the attribute exists within the cast array, we will convert it to
-        // an appropriate native PHP type dependant upon the associated value
+        // an appropriate native PHP type dependent upon the associated value
         // given with the key in the pair. Dayle made this comment line up.
         if ($this->hasCast($key)) {
             return $this->castAttribute($key, $value);
@@ -1178,6 +1178,12 @@ trait HasAttributes
         } elseif ($this->hasCast($key, ['object', 'collection'])) {
             return $this->castAttribute($key, $current) ==
                 $this->castAttribute($key, $original);
+        } elseif ($this->hasCast($key, ['real', 'float', 'double'])) {
+            if (($current === null && $original !== null) || ($current !== null && $original === null)) {
+                return false;
+            }
+
+            return abs($this->castAttribute($key, $current) - $this->castAttribute($key, $original)) < PHP_FLOAT_EPSILON * 4;
         } elseif ($this->hasCast($key)) {
             return $this->castAttribute($key, $current) ===
                    $this->castAttribute($key, $original);

@@ -3,6 +3,7 @@
 namespace Illuminate\Foundation\Testing\Concerns;
 
 use Illuminate\Contracts\Http\Kernel as HttpKernel;
+use Illuminate\Cookie\CookieValuePrefix;
 use Illuminate\Foundation\Testing\TestResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
@@ -489,11 +490,7 @@ trait MakesHttpRequests
             $uri = substr($uri, 1);
         }
 
-        if (! Str::startsWith($uri, 'http')) {
-            $uri = config('app.url').'/'.$uri;
-        }
-
-        return trim($uri, '/');
+        return trim(url($uri), '/');
     }
 
     /**
@@ -564,8 +561,8 @@ trait MakesHttpRequests
             return array_merge($this->defaultCookies, $this->unencryptedCookies);
         }
 
-        return collect($this->defaultCookies)->map(function ($value) {
-            return encrypt($value, false);
+        return collect($this->defaultCookies)->map(function ($value, $key) {
+            return encrypt(CookieValuePrefix::create($key, app('encrypter')->getKey()).$value, false);
         })->merge($this->unencryptedCookies)->all();
     }
 

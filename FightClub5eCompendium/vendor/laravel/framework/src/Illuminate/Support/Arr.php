@@ -343,6 +343,38 @@ class Arr
     }
 
     /**
+     * Determine if any of the keys exist in an array using "dot" notation.
+     *
+     * @param  \ArrayAccess|array  $array
+     * @param  string|array  $keys
+     * @return bool
+     */
+    public static function hasAny($array, $keys)
+    {
+        if (is_null($keys)) {
+            return false;
+        }
+
+        $keys = (array) $keys;
+
+        if (! $array) {
+            return false;
+        }
+
+        if ($keys === []) {
+            return false;
+        }
+
+        foreach ($keys as $key) {
+            if (static::has($array, $key)) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    /**
      * Determines if an array is associative.
      *
      * An array is "associative" if it doesn't have sequential numerical keys beginning with zero.
@@ -596,7 +628,7 @@ class Arr
      */
     public static function query($array)
     {
-        return http_build_query($array, null, '&', PHP_QUERY_RFC3986);
+        return http_build_query($array, '', '&', PHP_QUERY_RFC3986);
     }
 
     /**
