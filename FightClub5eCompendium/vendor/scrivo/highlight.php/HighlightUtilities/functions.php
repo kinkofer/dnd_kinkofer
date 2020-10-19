@@ -29,6 +29,9 @@
 
 namespace HighlightUtilities;
 
+require_once __DIR__ . '/_internals.php';
+require_once __DIR__ . '/_themeColors.php';
+
 /**
  * Get a list of available stylesheets.
  *
@@ -67,6 +70,25 @@ function getAvailableStyleSheets($filePaths = false)
     }
 
     return $results;
+}
+
+/**
+ * Get the RGB representation used for the background of a given theme as an
+ * array of three numbers.
+ *
+ * @api
+ *
+ * @since 9.18.1.1
+ *
+ * @param string $name The stylesheet name (with or without the extension)
+ *
+ * @throws \DomainException when no stylesheet with this name exists
+ *
+ * @return float[] An array representing RGB numerical values
+ */
+function getThemeBackgroundColor($name)
+{
+    return _getThemeBackgroundColor(_getNoCssExtension($name));
 }
 
 /**
@@ -121,10 +143,7 @@ function getStyleSheetFolder()
  */
 function getStyleSheetPath($name)
 {
-    if (substr($name, -4, 4) === ".css") {
-        $name = preg_replace("/\.css$/", "", $name);
-    }
-
+    $name = _getNoCssExtension($name);
     $path = implode(DIRECTORY_SEPARATOR, array(getStyleSheetFolder(), $name)) . ".css";
 
     if (!file_exists($path)) {
@@ -154,28 +173,41 @@ function splitCodeIntoArray($html)
         throw new \RuntimeException("The DOM extension is not loaded but is required.");
     }
 
+    if (trim($html) === "") {
+        return array();
+    }
+
     $dom = new \DOMDocument();
 
-    if (!$dom->loadHTML($html)) {
+    // https://stackoverflow.com/a/8218649
+    if (!$dom->loadHTML(mb_convert_encoding($html, "HTML-ENTITIES", "UTF-8"))) {
         throw new \UnexpectedValueException("The given HTML could not be parsed correctly.");
     }
 
-    $spans = $dom->getElementsByTagName("span");
+    $xpath = new \DOMXPath($dom);
+    $spans = $xpath->query("//span[contains(text(), '\n') or contains(text(), '\r\n')]");
 
     /** @var \DOMElement $span */
     foreach ($spans as $span) {
-        $classes = $span->getAttribute("class");
-        $renderedSpan = $dom->saveHTML($span);
+        $closingTags = '';
+        $openingTags = '';
+        $curr = $span;
 
-        if (preg_match('/\R/', $renderedSpan)) {
-            $finished = preg_replace(
-                '/\R/',
-                sprintf('</span>%s<span class="%s">', PHP_EOL, $classes),
-                $renderedSpan
-            );
-            $html = str_replace($renderedSpan, $finished, $html);
+        while ($curr->tagName === 'span') {
+            $closingTags .= '</span>';
+            $openingTags = sprintf('<span class="%s">%s', $curr->getAttribute("class"), $openingTags);
+
+            $curr = $curr->parentNode;
         }
+
+        $renderedSpan = $dom->saveHTML($span);
+        $finished = preg_replace(
+            '/\R/u',
+            $closingTags . PHP_EOL . $openingTags,
+            $renderedSpan
+        );
+        $html = str_replace($renderedSpan, $finished, $html);
     }
 
-    return preg_split('/\R/', $html);
+    return preg_split('/\R/u', $html);
 }

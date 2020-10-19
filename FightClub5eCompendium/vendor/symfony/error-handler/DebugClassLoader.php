@@ -13,6 +13,7 @@ namespace Symfony\Component\ErrorHandler;
 
 use Doctrine\Common\Persistence\Proxy as LegacyProxy;
 use Doctrine\Persistence\Proxy;
+use Mockery\MockInterface;
 use PHPUnit\Framework\MockObject\Matcher\StatelessInvocation;
 use PHPUnit\Framework\MockObject\MockObject;
 use Prophecy\Prophecy\ProphecySubjectInterface;
@@ -49,12 +50,9 @@ use ProxyManager\Proxy\ProxyInterface;
 class DebugClassLoader
 {
     private const SPECIAL_RETURN_TYPES = [
-        'mixed' => 'mixed',
         'void' => 'void',
         'null' => 'null',
         'resource' => 'resource',
-        'static' => 'object',
-        '$this' => 'object',
         'boolean' => 'bool',
         'true' => 'bool',
         'false' => 'bool',
@@ -69,7 +67,13 @@ class DebugClassLoader
         'string' => 'string',
         'self' => 'self',
         'parent' => 'parent',
-    ];
+    ] + (\PHP_VERSION_ID >= 80000 ? [
+        '$this' => 'static',
+    ] : [
+        'mixed' => 'mixed',
+        'static' => 'object',
+        '$this' => 'object',
+    ]);
 
     private const BUILTIN_RETURN_TYPES = [
         'void' => true,
@@ -83,7 +87,10 @@ class DebugClassLoader
         'string' => true,
         'self' => true,
         'parent' => true,
-    ];
+    ] + (\PHP_VERSION_ID >= 80000 ? [
+        'mixed' => true,
+        'static' => true,
+    ] : []);
 
     private const MAGIC_METHODS = [
         '__set' => 'void',
@@ -198,7 +205,7 @@ class DebugClassLoader
             } elseif (substr($test, -\strlen($file)) === $file) {
                 // filesystem is case insensitive and realpath() normalizes the case of characters
                 self::$caseCheck = 1;
-            } elseif (false !== stripos(PHP_OS, 'darwin')) {
+            } elseif (false !== stripos(\PHP_OS, 'darwin')) {
                 // on MacOSX, HFS+ is case insensitive but realpath() doesn't normalize the case of characters
                 self::$caseCheck = 2;
             } else {
@@ -300,6 +307,7 @@ class DebugClassLoader
                     && !is_subclass_of($symbols[$i], Proxy::class)
                     && !is_subclass_of($symbols[$i], ProxyInterface::class)
                     && !is_subclass_of($symbols[$i], LegacyProxy::class)
+                    && !is_subclass_of($symbols[$i], MockInterface::class)
                 ) {
                     $loader->checkClass($symbols[$i]);
                 }
@@ -323,7 +331,7 @@ class DebugClassLoader
      */
     public function loadClass(string $class): void
     {
-        $e = error_reporting(error_reporting() | E_PARSE | E_ERROR | E_CORE_ERROR | E_COMPILE_ERROR);
+        $e = error_reporting(error_reporting() | \E_PARSE | \E_ERROR | \E_CORE_ERROR | \E_COMPILE_ERROR);
 
         try {
             if ($this->isFinder && !isset($this->loaded[$class])) {
@@ -375,7 +383,7 @@ class DebugClassLoader
             $deprecations = $this->checkAnnotations($refl, $name);
 
             foreach ($deprecations as $message) {
-                @trigger_error($message, E_USER_DEPRECATED);
+                @trigger_error($message, \E_USER_DEPRECATED);
             }
         }
 
@@ -407,7 +415,7 @@ class DebugClassLoader
         }
         $deprecations = [];
 
-        $className = isset($class[15]) && "\0" === $class[15] && 0 === strpos($class, "class@anonymous\x00") ? get_parent_class($class).'@anonymous' : $class;
+        $className = false !== strpos($class, "@anonymous\0") ? (get_parent_class($class) ?: key(class_implements($class)) ?: 'class').'@anonymous' : $class;
 
         // Don't trigger deprecations for classes in the same vendor
         if ($class !== $className) {
@@ -428,17 +436,17 @@ class DebugClassLoader
                 }
             }
 
-            if ($refl->isInterface() && false !== strpos($doc, 'method') && preg_match_all('#\n \* @method\s+(static\s+)?+(?:[\w\|&\[\]\\\]+\s+)?(\w+(?:\s*\([^\)]*\))?)+(.+?([[:punct:]]\s*)?)?(?=\r?\n \*(?: @|/$|\r?\n))#', $doc, $notice, PREG_SET_ORDER)) {
+            if ($refl->isInterface() && false !== strpos($doc, 'method') && preg_match_all('#\n \* @method\s+(static\s+)?+([\w\|&\[\]\\\]+\s+)?(\w+(?:\s*\([^\)]*\))?)+(.+?([[:punct:]]\s*)?)?(?=\r?\n \*(?: @|/$|\r?\n))#', $doc, $notice, \PREG_SET_ORDER)) {
                 foreach ($notice as $method) {
-                    $static = '' !== $method[1];
-                    $name = $method[2];
-                    $description = $method[3] ?? null;
+                    $static = '' !== $method[1] && !empty($method[2]);
+                    $name = $method[3];
+                    $description = $method[4] ?? null;
                     if (false === strpos($name, '(')) {
                         $name .= '()';
                     }
                     if (null !== $description) {
                         $description = trim($description);
-                        if (!isset($method[4])) {
+                        if (!isset($method[5])) {
                             $description .= '.';
                         }
                     }
@@ -607,7 +615,7 @@ class DebugClassLoader
                     if ($canAddReturnType && 'docblock' === $this->patchTypes['force'] && false === strpos($method->getFileName(), \DIRECTORY_SEPARATOR.'vendor'.\DIRECTORY_SEPARATOR)) {
                         $this->patchMethod($method, $returnType, $declaringFile, $normalizedType);
                     } elseif ('' !== $declaringClass && $this->patchTypes['deprecations']) {
-                        $deprecations[] = sprintf('Method "%s::%s()" will return "%s" as of its next major version. Doing the same in child class "%s" will be required when upgrading.', $declaringClass, $method->name, $normalizedType, $className);
+                        $deprecations[] = sprintf('Method "%s::%s()" will return "%s" as of its next major version. Doing the same in %s "%s" will be required when upgrading.', $declaringClass, $method->name, $normalizedType, interface_exists($declaringClass) ? 'implementation' : 'child class', $className);
                     }
                 }
             }
@@ -652,7 +660,7 @@ class DebugClassLoader
             if ($finalOrInternal || $method->isConstructor() || false === strpos($doc, '@param') || StatelessInvocation::class === $class) {
                 continue;
             }
-            if (!preg_match_all('#\n\s+\* @param +((?(?!callable *\().*?|callable *\(.*\).*?))(?<= )\$([a-zA-Z0-9_\x7f-\xff]++)#', $doc, $matches, PREG_SET_ORDER)) {
+            if (!preg_match_all('#\n\s+\* @param +((?(?!callable *\().*?|callable *\(.*\).*?))(?<= )\$([a-zA-Z0-9_\x7f-\xff]++)#', $doc, $matches, \PREG_SET_ORDER)) {
                 continue;
             }
             if (!isset(self::$annotatedParameters[$class][$method->name])) {
@@ -664,7 +672,7 @@ class DebugClassLoader
             foreach ($matches as list(, $parameterType, $parameterName)) {
                 if (!isset($definedParameters[$parameterName])) {
                     $parameterType = trim($parameterType);
-                    self::$annotatedParameters[$class][$method->name][$parameterName] = sprintf('The "%%s::%s()" method will require a new "%s$%s" argument in the next major version of its parent class "%s", not defining it is deprecated.', $method->name, $parameterType ? $parameterType.' ' : '', $parameterName, $className);
+                    self::$annotatedParameters[$class][$method->name][$parameterName] = sprintf('The "%%s::%s()" method will require a new "%s$%s" argument in the next major version of its %s "%s", not defining it is deprecated.', $method->name, $parameterType ? $parameterType.' ' : '', $parameterName, interface_exists($className) ? 'interface' : 'parent class', $className);
                 }
             }
         }
@@ -856,7 +864,7 @@ class DebugClassLoader
             }
         }
 
-        if ('void' === $normalizedType) {
+        if ('void' === $normalizedType || (\PHP_VERSION_ID >= 80000 && 'mixed' === $normalizedType)) {
             $nullable = false;
         } elseif (!isset(self::BUILTIN_RETURN_TYPES[$normalizedType]) && isset(self::SPECIAL_RETURN_TYPES[$normalizedType])) {
             // ignore other special return types
