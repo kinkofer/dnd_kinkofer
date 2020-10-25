@@ -21,3 +21,5 @@ Route::post('/merge', "MergeController@merge");
 
 
 Route::get('/skyreach', "SkyreachController@index");
+Route::post('/skyreach/rune', "SkyreachController@selectRune");
+Route::get('/skyreach/{name}', "SkyreachController@navigate");
