@@ -26,11 +26,11 @@
         <link rel="stylesheet" href="{{ url('css/skyreach.css') }}">
     </head>
     <body>
+        @isset($runes)
         <div id="acceptedRunes">
 
         </div>
         <div id="runes">
-        @isset($runes)
             @foreach ($runes as $rune)
                 @php 
                     $url = url("/assets/rune/$rune.png");
@@ -44,7 +44,7 @@
                     @endisset
                 </div>
             @endforeach
-        @endisset
         </div>
+        @endisset
     </body>
 </html>
