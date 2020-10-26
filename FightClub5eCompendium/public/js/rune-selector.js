@@ -1,5 +1,5 @@
 let clearRune = "death";
-let spaceRune = "journey";
+let acceptRune = "journey";
 
 
 /// The user selects a rune button
@@ -17,10 +17,12 @@ function selectRune(runeBtn) {
 
 /// A rune was selected from the Pusher event
 function didSelectRune(rune) {
-    highlightRuneBtn(rune);
-
-    if(rune == clearRune) { clearRunes(); }
-    // if spaceRune { addSpaceRune(); }
+    if(rune == clearRune) { 
+        clearRunes();
+    }
+    else if(rune == acceptRune) { 
+        acceptRunes();
+    }
     else {
         addRune(rune);
     }
@@ -37,14 +39,29 @@ function clearRunes() {
 
 
 function addRune(rune) {
-    if ($('#acceptedRunes > img').length == 12) { return }
+    let acceptedRunesLength = $('#acceptedRunes > .acceptedRune').length;
+    let separatorsLength = $('#acceptedRunes > .separator').length;
+
+    // Validation
+    if (acceptedRunesLength == 12) { return }
+    if ((acceptedRunesLength == 4 && separatorsLength == 0) ||
+        (acceptedRunesLength == 8 && separatorsLength == 1)) { return }
+
+    highlightRuneBtn(rune);
 
     let imgUrl = "../assets/rune/" + rune + ".png";
-    $('#acceptedRunes').append('<img class="acceptedRune" src="' + imgUrl + '"/>')
+    $('#acceptedRunes').append('<img class="acceptedRune" src="' + imgUrl + '"/>');
+}
 
-    if ($('#acceptedRunes > img').length == 4 ||
-        $('#acceptedRunes > img').length == 8) {
-        $('#acceptedRunes').append("-")
+
+function acceptRunes() {
+    let acceptedRunesLength = $('#acceptedRunes > .acceptedRune').length;
+
+    if (acceptedRunesLength == 12) { return }
+
+    if (acceptedRunesLength % 4 == 0) {
+        $('#acceptedRunes').append('<span class="separator">-</span>');
+        highlightRuneBtn(acceptRune);
     }
 }
 
