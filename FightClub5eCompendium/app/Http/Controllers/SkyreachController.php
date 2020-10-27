@@ -22,16 +22,16 @@ class SkyreachController extends Controller
                                                 'shield', 'stone', 'storm', 'war', 'wind']]);
         }
         else if($navigator == 'wynn') {
-            return view('skyreach', ['runes' => ['blood', 'cloud', 'death', 'dragon', 'enemy']]);
+            return view('skyreach', ['runes' => ['blood', 'journey', 'life', 'sacred', 'wind']]);
         }
         else if($navigator == 'reichart') {
-            return view('skyreach', ['runes' => ['fire', 'friend', 'hill', 'ice', 'journey']]);
+            return view('skyreach', ['runes' => ['enemy', 'ice', 'king', 'mountain', 'stone']]);
         }
         else if($navigator == 'vovin') {
-            return view('skyreach', ['runes' => ['king', 'life', 'light', 'mountain', 'sacred']]);
+            return view('skyreach', ['runes' => ['death', 'dragon', 'hill', 'storm', 'war']]);
         }
         else if($navigator == 'mama-coco') {
-            return view('skyreach', ['runes' => ['shield', 'stone', 'storm', 'war', 'wind']]);
+            return view('skyreach', ['runes' => ['cloud', 'fire', 'friend', 'light', 'shield']]);
         }
         else {
             return view('skyreach');

@@ -1,10 +1,7 @@
-let clearRune = "death";
-let acceptRune = "journey";
-
 
 /// The user selects a rune button
 function selectRune(runeBtn) {
-    let rune = $(runeBtn).prop('id')
+    let rune = $(runeBtn).prop('id');
 
     $.ajaxSetup({
         headers: {
@@ -17,10 +14,10 @@ function selectRune(runeBtn) {
 
 /// A rune was selected from the Pusher event
 function didSelectRune(rune) {
-    if(rune == clearRune) { 
+    if(rune == Action.CLEAR) { 
         clearRunes();
     }
-    else if(rune == acceptRune) { 
+    else if(rune == Action.ACCEPT) { 
         acceptRunes();
     }
     else {
@@ -35,6 +32,7 @@ function clearRunes() {
     });
 
     $('#acceptedRunes').empty();
+    $('#acceptedRunes').css('background-color', '#ccc');
 }
 
 
@@ -43,9 +41,15 @@ function addRune(rune) {
     let separatorsLength = $('#acceptedRunes > .separator').length;
 
     // Validation
-    if (acceptedRunesLength == 12) { return }
+    if (acceptedRunesLength == 12) {
+        showInvalidInput();
+        return;
+    }
     if ((acceptedRunesLength == 4 && separatorsLength == 0) ||
-        (acceptedRunesLength == 8 && separatorsLength == 1)) { return }
+        (acceptedRunesLength == 8 && separatorsLength == 1)) {
+        showInvalidInput();
+        return;
+    }
 
     highlightRuneBtn(rune);
 
@@ -55,13 +59,43 @@ function addRune(rune) {
 
 
 function acceptRunes() {
-    let acceptedRunesLength = $('#acceptedRunes > .acceptedRune').length;
+    let acceptedRunes = $.map($('#acceptedRunes > .acceptedRune'), (value, index) => { 
+        return $(value).attr('src').match(/[-_\w]+[.][\w]+$/i)[0].split('.').shift();
+    });
 
-    if (acceptedRunesLength == 12) { return }
+    let validationCallback = function(success) {
+        if (success) {
+            $('#acceptedRunes').append('<span class="separator">-</span>');
+        }
+        else {
+            showInvalidInput();
+        }
+    };
 
-    if (acceptedRunesLength % 4 == 0) {
-        $('#acceptedRunes').append('<span class="separator">-</span>');
-        highlightRuneBtn(acceptRune);
+    switch (acceptedRunes.length) {
+        case 4:
+            highlightRuneBtn(Rune.ACCEPT);
+
+            let actionRunes = acceptedRunes.slice(0, 5);
+            validateAction(actionRunes, validationCallback);
+            break;
+        case 8:
+            highlightRuneBtn(Rune.ACCEPT);
+
+            let itemRunes = acceptedRunes.slice(4, 8);
+            validateItem(itemRunes, validationCallback);
+            break;
+        case 12:
+            highlightRuneBtn(Rune.ACCEPT);
+
+            let locationRunes = acceptedRunes.slice(8, 12);
+            validateLocation(locationRunes, (success) => {
+                (success) ? showValidInput() : showInvalidInput();
+            });
+            break;
+        default:
+            showInvalidInput();
+            break;
     }
 }
 
@@ -74,4 +108,33 @@ function highlightRuneBtn(rune) {
     if (!runeBtn.hasClass('selected-rune')) {
         runeBtn.attr('class', runeBtn.prop('class') + ' selected-rune');
     }
+}
+
+
+function validateAction(runes, callback) {
+    callback(JSON.stringify(runes) == JSON.stringify(Action.OPEN));
+}
+
+
+function validateItem(runes, callback) {
+    callback(JSON.stringify(runes) == JSON.stringify(Item.DOOR));
+}
+
+
+function validateLocation(runes, callback) {
+    callback(JSON.stringify(runes) == JSON.stringify(SkyreachLocation.REZMIR));
+}
+
+
+function showInvalidInput() {
+    let bgColor = $('#acceptedRunes').css('background-color');
+    setTimeout(() => {
+        $('#acceptedRunes').css('background-color', bgColor);
+    }, 1000);
+    $('#acceptedRunes').css('background-color', 'red');
+}
+
+
+function showValidInput() {
+    $('#acceptedRunes').css('background-color', 'green');
 }

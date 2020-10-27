@@ -21,6 +21,7 @@
             });
         </script>
         <script src="{{url('js/rune-selector.js')}}"></script>
+        <script src="{{url('js/constants.js')}}"></script>
 
         <!-- Styles -->
         <link rel="stylesheet" href="{{ url('css/skyreach.css') }}">
