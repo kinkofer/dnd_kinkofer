@@ -25,7 +25,8 @@ class SkyreachController extends Controller
             return view('skyreach', ['runes' => ['blood', 'journey', 'life', 'sacred', 'wind']]);
         }
         else if($navigator == 'reichart') {
-            return view('skyreach', ['runes' => ['enemy', 'ice', 'king', 'mountain', 'stone']]);
+            return view('skyreach', ['reichart' => true,
+                                     'runes' => ['enemy', 'ice', 'king', 'mountain', 'stone']]);
         }
         else if($navigator == 'vovin') {
             return view('skyreach', ['runes' => ['death', 'dragon', 'hill', 'storm', 'war']]);

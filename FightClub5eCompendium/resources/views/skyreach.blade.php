@@ -38,7 +38,7 @@
                 @endphp
                 <div style="display: inline; position: relative">
                     <button class="rune" id="{{ $rune }}" onClick="selectRune(this)">
-                        <img src="{{ $url }}"/>
+                        <img src="{{ $url }}" />
                     </button>
                     @isset($admin)
                     <span style="position: absolute; left: 20%; top: -90px;">{{ $rune }}</span>
@@ -46,6 +46,11 @@
                 </div>
             @endforeach
         </div>
+        @endisset
+        @isset($reichart)
+            <div id="translation">
+                <img src="{{ url('/assets/rune/translations.png') }}" style="width: 75%" />
+            </div>
         @endisset
     </body>
 </html>
