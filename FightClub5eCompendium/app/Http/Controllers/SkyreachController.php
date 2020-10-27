@@ -46,19 +46,6 @@ class SkyreachController extends Controller
 
 
     public function handout($type) {
-        switch ($type) {
-            case 'marks':
-                return view('handout', ['marks' => true]);
-                break;
-            case 'grid':
-                return view('handout', ['grid' => true]);
-                break; 
-            case 'maps':
-                return view('handout', ['maps' => true]);
-                break;
-            default:
-                return view('handout');
-                break;
-        }
+        return view('handout', ["$type" => true]);
     }
 }
