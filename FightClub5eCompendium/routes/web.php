@@ -18,3 +18,11 @@ Route::post('/compendium', "CompendiumController@compendium");
 
 Route::get('/merge', "MergeController@index");
 Route::post('/merge', "MergeController@merge");
+
+
+Route::get('/skyreach', "SkyreachController@index");
+Route::post('/skyreach/rune', "SkyreachController@selectRune");
+Route::get('/skyreach/{handout}', "SkyreachController@handout")
+    ->where('handout', 'marks|grid|maps');
+Route::get('/skyreach/{name}', "SkyreachController@navigate");
+
