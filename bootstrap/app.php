@@ -41,6 +41,8 @@ $app->singleton(
     App\Exceptions\Handler::class
 );
 
+$app->register(Aws\Laravel\AwsServiceProvider::class);
+
 /*
 |--------------------------------------------------------------------------
 | Return The Application
